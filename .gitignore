@@ -4,4 +4,4 @@ __pycache__/
 dataset/.generation_checkpoint.json
 dataset/.generation_checkpoint.json.tmp
 dataset/preview-P03/
-versionrag/
+dataset/other/
