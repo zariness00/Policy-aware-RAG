@@ -1,0 +1,345 @@
+Type,Question,Answer,Response_Baseline,Response_VersionRAG
+Content Retrieval,What are the exceptions to the Travel and Accommodation Policy?,"Exceptions to this policy may be granted in cases of urgent business needs or unforeseen circumstances. Employees seeking an exception must submit a written request to the HR department, which will be reviewed on a case-by-case basis and must be approved by the Chief Financial Officer (CFO).","Exceptions to the Travel and Accommodation Policy may be granted in cases of urgent business needs or unforeseen circumstances. Employees seeking an exception must submit a written request to the HR department, which will be reviewed on a case-by-case basis and must be approved by the Chief Financial Officer (CFO).","Exceptions to the Travel and Accommodation Policy may be granted in cases of urgent business needs or unforeseen circumstances. Employees seeking an exception must submit a written request to the HR department, which will be reviewed on a case-by-case basis and must be approved by the Chief Financial Officer (CFO)."
+Content Retrieval,Who does the Expense Claims Policy apply to?,This policy applies to all employees of the company who incur expenses while performing their job duties.,The Expense Claims Policy applies to all employees of the company who incur expenses while performing their job duties. This includes both full-time and part-time employees.,"The Expense Claims Policy applies to all employees of the company who incur expenses while performing their job duties. This includes both full-time and part-time employees and covers all types of expenses such as travel, meals, lodging, and other business-related costs."
+Content Retrieval,What is the retention period for approved Purchase Request Forms according to the records section?,All approved Purchase Request Forms must be retained for a minimum of three years in the department's procurement records.,The retention period for approved Purchase Request Forms is a minimum of three years in the department's procurement records.,"The retention period for approved Purchase Request Forms, as indicated in the records section, is a minimum of five years."
+Content Retrieval,What departments does the Supplier Onboarding Policy apply to?,"This policy applies to all departments within the company that engage with external suppliers for goods and services. It encompasses all potential suppliers, regardless of their size or the nature of the products or services they provide, and is applicable to both domestic and international suppliers.","The Supplier Onboarding Policy applies to all departments within the company that engage with external suppliers for goods and services. It encompasses all potential suppliers, regardless of their size or the nature of the products or services they provide, and is applicable to both domestic and international suppliers.",The Supplier Onboarding Policy applies to all departments within the company that engage with external suppliers for goods and services.
+Content Retrieval,What is the timeframe within which employees must report any suspected security incident?,Employees must report any suspected security incident to the IT Security Team within 24 hours of detection.,Employees must report any suspected security incident to the IT Security Team within 24 hours of detection.,Employees must report any suspected security incident to the IT Security Team within 24 hours of detection.
+Content Retrieval,What is the minimum duration for which access requests and reviews must be documented and stored?,A minimum of three years.,The minimum duration for which access requests and reviews must be documented and stored is three years. These records must be maintained in the IT Access Management System and are the responsibility of the IT department to ensure they are available for audit purposes upon request.,The minimum duration for which access requests and reviews must be documented and stored is three years.
+Content Retrieval,Who does the Remote Work Policy apply to?,"This policy applies to all full-time employees of the company who have completed their probationary period. Part-time employees and contractors may be considered for remote work on a case-by-case basis, subject to managerial discretion.","The Remote Work Policy applies to all full-time employees of the company who have completed their probationary period. Part-time employees and contractors may be considered for remote work on a case-by-case basis, subject to managerial discretion.","The Remote Work Policy applies to all full-time employees of the company who have completed their probationary period. Part-time employees and contractors may be considered for remote work on a case-by-case basis, subject to managerial discretion."
+Content Retrieval,Who does the Records Retention Policy apply to?,"This policy applies to all employees, contractors, and third-party service providers who create, manage, or dispose of business records within the organization.","The Records Retention Policy applies to all employees, contractors, and third-party service providers who create, manage, or dispose of business records within the organization. It encompasses all forms of records, including electronic documents, emails, physical files, and any other data generated in the course of business operations.","The Records Retention Policy applies to all employees, contractors, and third-party service providers who create, manage, or dispose of business records within the organization."
+Content Retrieval,What circumstances allow employees to request an extension for mandatory training?,"Employees may request an extension for mandatory training due to extenuating circumstances, such as medical leave or personal emergencies.","Employees may request an extension for mandatory training due to extenuating circumstances, such as medical leave or personal emergencies. These requests must be submitted in writing to the HR department at least 5 business days before the training deadline and will be reviewed on a case-by-case basis.","Employees may request an extension for mandatory training due to extenuating circumstances, such as medical leave or personal emergencies. These requests must be submitted in writing to the HR department at least 5 business days before the training deadline and will be reviewed on a case-by-case basis."
+Content Retrieval,What must all contractors complete before accessing company premises?,All contractors must complete a site induction training session prior to accessing any company premises.,"All contractors must complete a site induction training session prior to accessing any company premises. This training must be completed at least 48 hours before the scheduled start date of their work, and a record of completion must be submitted to the site manager for approval.","All contractors must complete a site induction training session prior to accessing any company premises. This training must be completed at least 48 hours before the scheduled start date of their work, and a record of completion must be submitted to the site manager for approval."
+Content Retrieval,What are the exceptions to the Equipment Maintenance Policy?,"Exceptions to this policy may be granted in cases of emergency equipment failure, where immediate action is required to prevent operational disruption.","Exceptions to the Equipment Maintenance Policy may be granted in cases of emergency equipment failure, where immediate action is required to prevent operational disruption. In such situations, employees must notify their supervisor and the Equipment Maintenance Coordinator as soon as possible, and a post-incident report must be submitted within 48 hours detailing the circumstances and actions taken.","Exceptions to the Equipment Maintenance Policy may be granted in cases of emergency equipment failure, where immediate action is required to prevent operational disruption. In such situations, employees must notify their supervisor and the Equipment Maintenance Coordinator as soon as possible, and a post-incident report must be submitted within 48 hours detailing the circumstances and actions taken."
+Content Retrieval,What is the minimum duration for which records of customer complaints must be maintained?,"Records should be maintained for a minimum of 2 years. Moreover, quarterly reports summarizing complaint trends and resolutions must be submitted to the Quality Assurance team for review",The minimum duration for which records of customer complaints must be maintained is 2 years.,The minimum duration for which records of customer complaints must be maintained is 2 years.
+Content Retrieval Complex,What is the process for requesting exceptions and what must be done to initiate travel arrangements?,"Employees seeking an exception must submit a written request to the HR department, which will be reviewed on a case-by-case basis and must be approved by the Chief Financial Officer (CFO). To initiate travel arrangements, employees must complete the travel request form at least 21 days prior to the scheduled departure and submit it to their supervisor for approval. Do not forget to receive a pre-approval for travel expenses, those expenses exceeding 750 USD must be approved additionally.","To request exceptions to the travel policy, employees must submit a written request to the HR department. This request will be reviewed on a case-by-case basis and must be approved by the Chief Financial Officer (CFO).
+
+To initiate travel arrangements, employees must complete a travel request form and submit it to their supervisor for approval. Once the supervisor approves the request, employees can book travel through the designated corporate travel agency, ensuring that all bookings are made at least 7 days in advance to secure the best rates.","To request exceptions to the travel policy, employees must submit a written request to the HR department. These requests will be reviewed on a case-by-case basis and must be approved by the Chief Financial Officer (CFO).
+
+To initiate travel arrangements, employees need to complete a travel request form and submit it to their supervisor for approval. Once the request is approved, employees can book travel through the designated corporate travel agency, ensuring that all bookings are made at least 7 days in advance to secure the best rates."
+Content Retrieval Complex,What types of expenses are covered by the Expense Claims Policy and what is the process for submitting a claim?,"The policy covers all types of expenses, including travel, meals, lodging, and other business-related costs. To submit an expense claim, employees must complete the designated expense claim form and attach all required documentation. Then, submit everything to their supervisor for approval and wait for their verdict.","The Expense Claims Policy covers various types of expenses incurred during business activities, including travel, meals, lodging, and other business-related costs. 
+
+To submit an expense claim, employees must complete the designated expense claim form and attach all required documentation, including original receipts. Claims should be submitted to the employee's direct supervisor for approval, who has five business days to review and either approve or deny the claim. If a claim is denied, the supervisor must provide a written explanation to the employee. Additionally, employees must submit their claims within 45 days of incurring the expense.","The Expense Claims Policy covers various types of expenses incurred during business activities, including travel, meals, lodging, and other business-related costs. 
+
+To submit a claim, employees must complete the designated expense claim form and attach all required documentation, including original receipts. Claims should be submitted to the employee's direct supervisor for approval, who has five business days to review and either approve or deny the claim. If denied, the supervisor must provide a written explanation to the employee. Claims must be submitted within 45 days of incurring the expense. 
+
+Additionally, exceptions to the policy may be granted for special circumstances, including expenses exceeding established limits, provided prior approval is obtained from the finance department."
+Content Retrieval Complex,What are the requirements for purchase approvals and the retention of records?,"According to the latest version, all purchases exceeding 750 USD must receive prior approval from the respective department head. If a purchase exceeds 3000 USD, then it requires a secondary approval from the Finance Department. Regarding the retention of records, all approved Purchase Request Forms must be retained for a minimum of three years in the department's procurement records.","The requirements for purchase approvals are as follows:
+
+1. All purchases exceeding $500 must receive prior approval from the respective department head.
+2. Any purchase above $2,500 requires a secondary approval from the Finance Department to ensure budget compliance and financial oversight.
+
+Regarding the retention of records:
+- Approved Purchase Request Forms must be retained for a minimum of three years in the department's procurement records.
+- The Finance Department will maintain a centralized log of all purchases exceeding $2,500 for auditing purposes, which will be reviewed quarterly.
+- All records related to the retention and disposal of business documents must be maintained for a minimum of five years, including records of disposal requests, approvals, and any exceptions granted, stored in a secure electronic format accessible only to authorized personnel.","The requirements for purchase approvals state that all purchases exceeding $750 must receive prior approval from the respective department head. Additionally, any purchase above $3,000 requires secondary approval from the Finance Department to ensure budget compliance and financial oversight.
+
+Regarding the retention of records, all approved Purchase Request Forms must be retained for a minimum of three years in the department's procurement records. The Finance Department will maintain a centralized log of all purchases exceeding $3,000 for auditing purposes, which will be reviewed quarterly. Other business records related to retention and disposal must be maintained for a minimum of five years, including records of disposal requests and approvals, stored in a secure electronic format accessible only to authorized personnel. Exceptions to the retention schedule may be granted with written approval from the department head or the Records Management Officer."
+Content Retrieval Complex,What are the requirements for new suppliers and what does the scope of the policy encompass?,"All new suppliers must complete a Supplier Evaluation Form and at least three references from current or past clients. The policy encompasses all potential suppliers, regardless of their size or the nature of the products or services they provide. Moreover, it applies to both domestic and international suppliers.","The requirements for new suppliers include completing a Supplier Evaluation Form, which must detail their financial stability, compliance with industry regulations, and ethical practices. Additionally, suppliers are required to provide at least three references from current or past clients, which will be verified by the procurement team within 10 business days of submission.
+
+The scope of the policy encompasses all departments within the company that engage with external suppliers for goods and services. It applies to all potential suppliers, regardless of their size or the nature of the products or services they provide, and is applicable to both domestic and international suppliers.","The requirements for new suppliers include the completion of a Supplier Evaluation Form, which must detail their financial stability, compliance with industry regulations, and ethical practices. Additionally, suppliers are required to provide at least three references from current or past clients, which will be verified by the procurement team within 10 business days of submission.
+
+The scope of the policy encompasses all departments within the company that engage with external suppliers for goods and services. It applies to all potential suppliers, regardless of their size or the nature of the products or services they provide, and is applicable to both domestic and international suppliers."
+Content Retrieval Complex,What are the requirements for reporting a suspected security incident and the conditions under which exceptions may be granted?,"Employees must report suspected security incidents within 24 hours, including a detailed description, time, and any actions taken prior to reporting. Exceptions may be granted by the CISO if reporting compromises investigations or is a false alarm.","All employees must report any suspected security incident to the IT Security Team within 24 hours of detection. Reports should include a detailed description of the incident, the time of occurrence, and any actions taken prior to reporting. Failure to report incidents in a timely manner may result in disciplinary action, up to and including termination.
+
+Exceptions to this reporting requirement may be granted only by the Chief Information Security Officer (CISO) in cases where reporting may compromise ongoing investigations or where the incident is deemed to be a false alarm. Any exceptions must be documented and reviewed during the next quarterly security meeting to ensure compliance and understanding of the policy.","All employees must report any suspected security incident to the IT Security Team within 24 hours of detection. Reports should include a detailed description of the incident, the time of occurrence, and any actions taken prior to reporting. Failure to report incidents in a timely manner may result in disciplinary action, up to and including termination.
+
+Exceptions to this reporting requirement may be granted only by the Chief Information Security Officer (CISO) in cases where reporting may compromise ongoing investigations or where the incident is deemed to be a false alarm. Any exceptions must be documented and reviewed during the next quarterly security meeting to ensure compliance and understanding of the policy."
+Content Retrieval Complex,What are the requirements for access requests and how often must access be reviewed?,Access requests must be submitted through the IT Access Request Form and approved by the employee's supervisor and the IT Manager. Access must be reviewed at least every three months for high-risk roles and at least every six months for all other roles.,All access requests must be submitted through the IT Access Request Form and require approval from the employee's direct supervisor and the IT Manager. Access must be reviewed at least every three months for high-risk roles and at least every six months for all other roles to ensure that it remains appropriate based on the user's role and responsibilities.,All access requests must be submitted through the IT Access Request Form and require approval from the employee's direct supervisor and the IT Manager. Access must be reviewed at least every three months for high-risk roles and at least every six months for all other roles to ensure that it remains appropriate based on the user's role and responsibilities.
+Content Retrieval Complex,What are the eligibility criteria for remote work and the approval process?,"Be a full-time employe who has completed their probationary period.  Secondly, submit the Remote Work Request Form to your supervisor at least one week prior to the desired date. Then, the supervisor has 3 days to review and approve or deny the request. If approved, the request is forwarded to HR for final approval.","The eligibility criteria for remote work include:
+
+1. Employees must be full-time and have completed their probationary period.
+2. Employees must submit a Remote Work Request Form at least one week prior to the desired remote work date.
+3. Approval is required from both the direct supervisor and the HR department.
+4. Employees must demonstrate that their job responsibilities can be effectively managed from a remote location.
+
+The approval process involves the following steps:
+
+1. Employees complete and submit the Remote Work Request Form to their supervisor.
+2. Supervisors review the request within three business days and communicate their decision to the employee.
+3. If approved, the employee must forward the request to HR for final approval.
+4. All approved requests will be documented and stored in the employee's personnel file. 
+
+Exceptions may be granted for special circumstances, such as medical needs or family emergencies, with documentation submitted to HR for review.","The eligibility criteria for remote work include:
+
+1. **Submission of Request**: Employees must submit a Remote Work Request Form at least one week prior to the desired remote work date.
+2. **Approval Requirement**: Approval is required from both the direct supervisor and the HR department.
+3. **Job Responsibilities**: Employees must demonstrate that their job responsibilities can be effectively managed from a remote location.
+4. **Employment Status**: The policy applies to all full-time employees who have completed their probationary period. Part-time employees and contractors may be considered on a case-by-case basis.
+
+The approval process involves the following steps:
+
+1. Employees complete and submit the Remote Work Request Form to their supervisor.
+2. Supervisors review the request within three business days and communicate their decision to the employee.
+3. If approved, the employee must forward the request to HR for final approval.
+4. All approved requests are documented and stored in the employee's personnel file. 
+
+Exceptions to the policy may be granted for special circumstances, requiring documentation and approval from the department head and HR within three business days."
+Content Retrieval Complex,What are the retention requirements for financial and employee records according to the Records Retention Policy?,"Financial records must be retained for a minimum of three years, while employee records must be retained for a minimum of five years.","According to the Records Retention Policy, the retention requirements are as follows:
+
+- Financial records must be retained for a minimum of three years.
+- Employee records must be retained for a minimum of five years.","According to the Records Retention Policy, the retention requirements are as follows: financial records must be kept for a minimum of three years, while employee records must be retained for a minimum of five years."
+Content Retrieval Complex,What are the requirements for submitting a request for an extension for mandatory training and how are these requests handled?,Requests must be submitted in writing to the HR department at least 5 business days before the training deadline and will be reviewed on a case-by-case basis.,"Employees may request an extension for mandatory training due to extenuating circumstances, such as medical leave or personal emergencies. These requests must be submitted in writing to the HR department at least 5 business days before the training deadline. Each request will be reviewed on a case-by-case basis.","To submit a request for an extension for mandatory training, employees must meet the following requirements:
+
+1. The request must be due to extenuating circumstances, such as medical leave or personal emergencies.
+2. The request must be submitted in writing to the HR department.
+3. The request should be submitted at least 5 business days before the training deadline.
+
+These requests will be reviewed on a case-by-case basis by the HR department."
+Content Retrieval Complex,What are the requirements for contractor induction and what exceptions exist for immediate access?,"Contractors must complete induction training 48 hours before their start date, and submit a record of completion to the site manager. Exceptions can be made in emergencies where training must be completed within 24 hours, make sure to notify the site manager.","All contractors must complete a site induction training session prior to accessing any company premises. This training must be completed at least 48 hours before the scheduled start date of their work, and a record of completion must be submitted to the site manager for approval.
+
+Exceptions to this requirement may be granted in emergency situations where immediate access is necessary to prevent harm or damage. In such cases, the contractor must notify the site manager immediately and complete the induction training within 24 hours of access.","All contractors must complete a site induction training session prior to accessing any company premises. This training must be completed at least 48 hours before the scheduled start date of their work, and a record of completion must be submitted to the site manager for approval.
+
+Exceptions to this requirement may be granted in emergency situations where immediate access is necessary to prevent harm or damage. In such cases, the contractor must notify the site manager immediately and complete the induction training within 24 hours of access."
+Content Retrieval Complex,What are the procedures for handling equipment maintenance requests and what exceptions apply?,"Employees must complete the Equipment Maintenance Checklist and submit it to their supervisor at the end of each week. Exceptions may be granted in cases of emergency equipment failure, where immediate action is required to prevent operational disruption. Here, they mustnotify their supervisor and the Equipment Maintenance Coordinator as soon as possible, then they will be notified about the next steps.","The procedures for handling equipment maintenance requests are as follows:
+
+1. **Weekly Inspection**: Employees must complete the Equipment Maintenance Checklist and submit it to their supervisor at the end of each week.
+2. **Maintenance Request**: If any equipment requires maintenance, the employee must fill out a Maintenance Request Form. This form must be approved by the Equipment Maintenance Coordinator before any work can commence, with a maximum approval turnaround time of 48 hours.
+3. **Reporting Issues**: Employees must conduct a visual inspection of their assigned equipment at the beginning of each shift and report any identified issues to the Equipment Maintenance Coordinator within 12 hours. A formal maintenance request must be submitted for any repairs needed exceeding $100 in estimated costs.
+
+**Exceptions**: Exceptions to this policy may be granted in cases of emergency equipment failure, where immediate action is required to prevent operational disruption. In such cases, employees must notify their supervisor and the Equipment Maintenance Coordinator as soon as possible, and a post-incident report must be submitted within 48 hours detailing the circumstances and actions taken.","The procedures for handling equipment maintenance requests are as follows:
+
+1. **Weekly Checklist**: Employees must complete the Equipment Maintenance Checklist and submit it to their supervisor at the end of each week.
+2. **Maintenance Request Form**: If any equipment requires maintenance, the employee must fill out a Maintenance Request Form. This form must be approved by the Equipment Maintenance Coordinator before any work can commence, with a maximum approval turnaround time of 48 hours.
+3. **Reporting Issues**: Employees must conduct a visual inspection of their assigned equipment at the beginning of each shift and report any identified issues to the Equipment Maintenance Coordinator within 12 hours. A formal maintenance request must be submitted for any repairs needed exceeding $100 in estimated costs.
+
+**Exceptions**: Exceptions to this policy may be granted in cases of emergency equipment failure, where immediate action is required to prevent operational disruption. In such cases, employees must notify their supervisor and the Equipment Maintenance Coordinator as soon as possible, and a post-incident report must be submitted within 48 hours detailing the circumstances and actions taken."
+Content Retrieval Complex,What are the requirements for acknowledging and documenting customer complaints?,"Customer complaints must be acknowledged within 12 hours and documented in the CRM system within 24 hours of acknowledgment. When documenting, include the customer's name, contact information, and a summary of the issue.","The requirements for acknowledging and documenting customer complaints are as follows:
+
+1. **Acknowledgment**: All customer complaints must be acknowledged within 12 hours of receipt.
+2. **Documentation**: Employees are required to document the complaint details in the Customer Relationship Management (CRM) system, including:
+   - The customer's name
+   - Contact information
+   - A summary of the issue
+   This documentation must be completed within 24 hours of acknowledgment.
+
+Additionally, all complaints and their resolutions must be recorded in the CRM system for tracking and analysis purposes, and records should be maintained for a minimum of 2 years.","The requirements for acknowledging and documenting customer complaints are as follows:
+
+1. **Acknowledgment**: All customer complaints must be acknowledged within 12 hours of receipt.
+2. **Documentation**: Employees are required to document the complaint details in the Customer Relationship Management (CRM) system, including:
+   - The customer's name
+   - Contact information
+   - A summary of the issue
+   This documentation must be completed within 24 hours of acknowledgment. 
+
+Additionally, all complaints and their resolutions must be recorded in the CRM system for tracking and analysis purposes, and records should be maintained for a minimum of 2 years."
+Version-Specific Content Retrieval,What is the scope of the Travel and Accommodation Policy as of version P01-v1 on 2024-06-01?,"This policy applies to all employees of XYZ Corporation who are required to travel for business purposes. It covers all aspects of travel booking, accommodation arrangements, and the reimbursement process for travel-related expenses incurred during business trips.","The scope of the Travel and Accommodation Policy as of version P01-v1, effective from 2024-01-01, applies to all employees of XYZ Corporation who are required to travel for business purposes. It covers all aspects of travel booking, accommodation arrangements, and the reimbursement process for travel-related expenses incurred during business trips.","The scope of the Travel and Accommodation Policy as of version P01-v1, effective from 2024-01-01, applies to all employees of XYZ Corporation who are required to travel for business purposes. It encompasses all aspects of travel booking, accommodation arrangements, and the reimbursement process for travel-related expenses incurred during business trips."
+Version-Specific Content Retrieval,What is the time frame for submitting expense claims according to the Expense Claims Policy as of 2024-06-01?,Employees must submit their expense claims within 30 days of incurring the expense to ensure timely processing.,"According to the Expense Claims Policy effective from 2024-01-01, employees must submit their expense claims within 30 days of incurring the expense to ensure timely processing.","According to the Expense Claims Policy effective from 2024-01-01, employees must submit their expense claims within 30 days of incurring the expense."
+Version-Specific Content Retrieval,What is the scope of the Procurement Approval Policy as of 2025-06-01?,"The policy applies to all employees involved in the procurement process, including but not limited to department heads, project managers, and administrative staff, covering all purchases made on behalf of the company.","As of 2025-06-01, the scope of the Procurement Approval Policy applies to all employees involved in the procurement process, including department heads, project managers, administrative staff, contractors, and consultants engaged in procurement activities. It covers all purchases made on behalf of the company, regardless of the payment method or vendor.","The scope of the Procurement Approval Policy, effective from 2025-01-01, applies to all employees involved in the procurement process, including department heads, project managers, and administrative staff. It encompasses all purchases made on behalf of the company, regardless of the payment method or vendor."
+Version-Specific Content Retrieval,What is the procedure for onboarding suppliers as of 2024-06-01?,"The onboarding process begins with the completion of the Supplier Evaluation Form, followed by a review by the procurement team. Once the evaluation is complete, the procurement team will present their findings to the Supplier Approval Committee, which will make a decision within 15 business days. If approved, a formal contract will be drafted and sent to the supplier for signature.","As of 2024-06-01, the procedure for onboarding suppliers is as follows:
+
+1. **Completion of Supplier Evaluation Form**: New suppliers must fill out a Supplier Evaluation Form, which includes information about their financial stability, compliance with industry regulations, and ethical practices.
+
+2. **Review by Procurement Team**: The procurement team will review the completed Supplier Evaluation Form.
+
+3. **Presentation to Supplier Approval Committee**: After the review, the procurement team will present their findings to the Supplier Approval Committee.
+
+4. **Decision Making**: The Supplier Approval Committee will make a decision within 15 business days regarding the approval of the supplier.
+
+5. **Contract Drafting**: If the supplier is approved, a formal contract will be drafted and sent to the supplier for signature.
+
+Additionally, suppliers must provide at least three references from current or past clients, which will be verified by the procurement team within 10 business days of submission. All documentation related to the onboarding process must be maintained for a minimum of five years.","The procedure for onboarding suppliers as of 2024-06-01 is as follows:
+
+1. **Completion of Supplier Evaluation Form**: New suppliers must fill out a Supplier Evaluation Form, which includes information about their financial stability, compliance with industry regulations, and ethical practices.
+
+2. **Review by Procurement Team**: The procurement team will review the completed Supplier Evaluation Form.
+
+3. **Presentation to Supplier Approval Committee**: After the review, the procurement team will present their findings to the Supplier Approval Committee.
+
+4. **Decision Making**: The Supplier Approval Committee will make a decision within 15 business days regarding the approval of the supplier.
+
+5. **Contract Drafting**: If the supplier is approved, a formal contract will be drafted and sent to the supplier for signature.
+
+Additionally, suppliers must provide at least three references from current or past clients, which the procurement team will verify within 10 business days of submission. All related documentation must be maintained for a minimum of five years."
+Version-Specific Content Retrieval,What does the scope section of the Security Incident Policy P05-v1 state regarding who it applies to as of 2024-06-01?,"The scope section states that the policy applies to all employees, contractors, and third-party vendors who have access to the company’s information systems and data.","The scope section of the Security Incident Policy P05-v1 states that it applies to all employees, contractors, and third-party vendors who have access to the company’s information systems and data. It encompasses all suspected security incidents, including but not limited to data breaches, unauthorized access, malware infections, and phishing attempts.","The scope section of the Security Incident Policy P05-v1 states that the policy applies to all employees, contractors, and third-party vendors who have access to the company’s information systems and data. It encompasses all suspected security incidents, including but not limited to data breaches, unauthorized access, malware infections, and phishing attempts."
+Version-Specific Content Retrieval,What rule regarding exceptions was present in the exceptions section of P06-v2 on 2025-06-01?,"Exceptions may be granted for immediate access required for business continuity, documented and approved by the IT Director within 24 hours of access being granted.",The provided context does not contain enough information to answer this question.,"The exceptions section of P06-v2 states that exceptions to the policy may be granted in cases where immediate access is required for business continuity, such as during system outages. In such cases, the request must be documented and approved by the IT Director within 24 hours of access being granted."
+Version-Specific Content Retrieval,What is the requirement for submitting a Remote Work Request Form in P07-v1 as of 2024-06-01?,"Employees must submit a Remote Work Request Form at least two weeks prior to the desired remote work date. Moreover, the approval is required from the employee's direct supervisor and the HR department before the remote work arrangement can be finalized. Lastly, the employee must ensure that all necessary equipment and resources are available for remote work.","As of 2024-06-01, employees must submit a Remote Work Request Form at least two weeks prior to the desired remote work date. Approval from both the direct supervisor and the HR department is required, and employees must demonstrate that their job responsibilities can be effectively managed from a remote location.","As of 2024-06-01, employees must submit a Remote Work Request Form at least two weeks prior to the desired remote work date. Approval is required from both the direct supervisor and the HR department, and employees must demonstrate that their job responsibilities can be effectively managed from a remote location."
+Version-Specific Content Retrieval,What is the rule regarding exceptions to the retention schedule in version P08-v1 as of 2024-06-01?,"Exceptions to the retention schedule may be granted only with written approval from the department head and must be documented in the records management system. If records are needed for an ongoing lawsuit or audit, keep them until it ends, even if their normal retention period has passed ","In version P08-v1, effective from 2024-01-01, exceptions to the retention schedule may be granted only with written approval from the department head and must be documented in the records management system. Additionally, in cases of ongoing litigation or audits, records must be retained until the matter is resolved, regardless of the standard retention period.","The rule regarding exceptions to the retention schedule in version P08-v1 as of 2024-06-01 states that exceptions may be granted only with written approval from the department head and must be documented in the records management system. Additionally, in cases of ongoing litigation or audits, records must be retained until the matter is resolved, regardless of the standard retention period."
+Version-Specific Content Retrieval,What is the scope of the Employee Training Policy as of 2025-06-01 in version P09-v2?,"The policy applies to all employees of the company, including full-time, part-time, and temporary staff, and encompasses all mandatory training programs identified by the company.","The scope of the Employee Training Policy as of 2025-06-01 in version P09-v2 applies to all employees of the company, including full-time, part-time, and temporary staff. It encompasses all mandatory training programs identified by the company, including safety, compliance, and job-specific training modules.","The scope of the Employee Training Policy (version P09-v2) as of 2025-06-01 applies to all employees of the company, including full-time, part-time, and temporary staff. It encompasses all mandatory training programs identified by the company, which include safety, compliance, and job-specific training modules."
+Version-Specific Content Retrieval,What is the scope of the Contractor Site Access Policy as of 2024-06-01?,"The policy applies to all contractors, subcontractors, and their employees who require access to any company site, including maintenance, construction, and consultancy services. Moreover, it covers all work types, including maintenance, construction, and consultancy services.","The scope of the Contractor Site Access Policy, effective from 2024-01-01, applies to all contractors, subcontractors, and their employees who require access to any company site. It encompasses all types of work, including maintenance, construction, and consultancy services.","The scope of the Contractor Site Access Policy, effective from 2024-01-01, applies to all contractors, subcontractors, and their employees who require access to any company site. It encompasses all types of work, including maintenance, construction, and consultancy services."
+Version-Specific Content Retrieval,What is the scope of the Equipment Maintenance Policy as of version P11-v1 on 2024-06-01?,"The policy applies to all employees who operate, manage, or oversee company equipment, including machinery, vehicles, and electronic devices. It encompasses all equipment owned or leased by the company, regardless of its location or usage context.","The scope of the Equipment Maintenance Policy as of version P11-v1, effective from 2024-01-01, applies to all employees who operate, manage, or oversee company equipment, including machinery, vehicles, and electronic devices. It encompasses all equipment owned or leased by the company, regardless of its location or usage context.","The scope of the Equipment Maintenance Policy (version P11-v1, effective from 2024-01-01) applies to all employees who operate, manage, or oversee company equipment, including machinery, vehicles, and electronic devices. It encompasses all equipment owned or leased by the company, regardless of its location or usage context."
+Version-Specific Content Retrieval,What is the acknowledgment time frame for customer complaints in P12-v2 as of 2025-06-01?,Customer complaints must be acknowledged within 12 hours of receipt in P12-v2.,"As of June 1, 2025, all customer complaints must be acknowledged within 12 hours of receipt in P12-v2. Employees are also required to document the complaint details in the Customer Relationship Management (CRM) system within 24 hours of acknowledgment.",The acknowledgment time frame for customer complaints in P12-v2 as of 2025-06-01 is within 12 hours of receipt.
+Version Listing & Inquiry,"Which versions of the Travel and Accommodation Policy are available, and when did each take effect?",There are two versions of the Travel and Accommodation Policy: P01-v1 from 2024-01-01; P01-v2 from 2026-01-01.,"The available versions of the Travel and Accommodation Policy are:
+
+1. **Version ID: P01-v1**
+   - Effective from: **2024-01-01**
+   - Supersedes: None
+
+2. **Version ID: P01-v2**
+   - Effective from: **2026-01-01**
+   - Supersedes: P01-v1","The available versions of the Travel and Accommodation Policy are:
+
+1. Version 1.0, effective from January 1, 2024.
+2. Version 2, effective from January 1, 2026."
+Version Listing & Inquiry,"Which versions of the Expense Claims Policy are available, and when did each take effect?",There are two versions available: P02-v1 from 2024-01-01 and P02-v2 from 2026-01-01.,"There are two versions of the Expense Claims Policy available:
+
+1. **Version ID: P02-v1**
+   - **Effective from:** January 1, 2024
+   - **Supersedes:** None
+
+2. **Version ID: P02-v2**
+   - **Effective from:** January 1, 2026
+   - **Supersedes:** P02-v1","The available versions of the Expense Claims Policy are:
+
+1. Version 1, effective from January 1, 2024.
+2. Version 2, effective from January 1, 2026."
+Version Listing & Inquiry,"Which versions of the Procurement Approval Policy are available, and when did each take effect?","There are three versions of the Procurement Approval Policy: P03-v1 from 2024-01-01, P03-v2 from 2025-01-01, and P03-v3 from 2026-01-01.","The available versions of the Procurement Approval Policy and their effective dates are as follows:
+
+1. **Version ID: P03-v1**
+   - Effective from: **2024-01-01**
+
+2. **Version ID: P03-v2**
+   - Effective from: **2025-01-01**
+
+3. **Version ID: P03-v3**
+   - Effective from: **2026-01-01**","The available versions of the Procurement Approval Policy and their effective dates are as follows:
+
+1. Version 1 - Effective from: January 1, 2024
+2. Version 2 - Effective from: January 1, 2025
+3. Version 3 - Effective from: January 1, 2026"
+Version Listing & Inquiry,"Which versions of the Supplier Onboarding Policy are available, and when did each take effect?",There are two versions of the Supplier Onboarding Policy: P04-v1 from 2024-01-01; P04-v2 from 2026-01-01.,"The available versions of the Supplier Onboarding Policy and their effective dates are as follows:
+
+1. **Version ID: P04-v1**
+   - Effective from: **2024-01-01**
+   - Supersedes: None
+
+2. **Version ID: P04-v2**
+   - Effective from: **2026-01-01**
+   - Supersedes: P04-v1","The available versions of the Supplier Onboarding Policy are:
+
+1. Version 1 - Effective from: January 1, 2024
+2. Version 2 - Effective from: January 1, 2026"
+Version Listing & Inquiry,"Which versions of the Security Incident Policy are available, and when did each take effect?",There are two versions of the Security Incident Policy: P05-v1 from 2024-01-01 and P05-v2 from 2026-01-01.,"There are two versions of the Security Incident Policy available:
+
+1. **Version ID: P05-v1**
+   - **Effective from:** January 1, 2024
+   - **Supersedes:** None
+
+2. **Version ID: P05-v2**
+   - **Effective from:** January 1, 2026
+   - **Supersedes:** P05-v1","The available versions of the Security Incident Policy are:
+
+1. Version 1, effective from January 1, 2024.
+2. Version 2, effective from January 1, 2026."
+Version Listing & Inquiry,"Which versions of the IT Access Review Policy are available, and when did each take effect?","There are three versions of the IT Access Review Policy: P06-v1 from 2024-01-01, P06-v2 from 2025-01-01, and P06-v3 from 2026-01-01.","The available versions of the IT Access Review Policy and their effective dates are as follows:
+
+1. **Version ID: P06-v1**
+   - Effective from: **2024-01-01**
+
+2. **Version ID: P06-v2**
+   - Effective from: **2025-01-01**
+
+3. **Version ID: P06-v3**
+   - Effective from: **2026-01-01**","The available versions of the IT Access Review Policy and their effective dates are as follows:
+
+1. Version 1 - Effective from: January 1, 2024
+2. Version 2 - Effective from: January 1, 2025
+3. Version 3 - Effective from: January 1, 2026"
+Version Listing & Inquiry,"Which versions of the Remote Work Policy are available, and when did each take effect?",There are two versions of the Remote Work Policy: P07-v1 from 2024-01-01 and P07-v2 from 2026-01-01.,"There are two versions of the Remote Work Policy available:
+
+1. **Version ID: P07-v1**
+   - **Effective from:** January 1, 2024
+   - **Supersedes:** None
+
+2. **Version ID: P07-v2**
+   - **Effective from:** January 1, 2026
+   - **Supersedes:** P07-v1","The available versions of the Remote Work Policy are as follows:
+
+1. Version 1 - Effective from: January 1, 2024
+2. Version 2 - Effective from: January 1, 2026"
+Version Listing & Inquiry,"Which versions of the Records Retention Policy are available, and when did each take effect?",There are two versions of the Records Retention Policy: P08-v1 from 2024-01-01 and P08-v2 from 2026-01-01.,"The available versions of the Records Retention Policy are:
+
+1. **Version ID: P08-v1**
+   - Effective from: **2024-01-01**
+   - Supersedes: None
+
+2. **Version ID: P08-v2**
+   - Effective from: **2026-01-01**
+   - Supersedes: P08-v1","The available versions of the Records Retention Policy are:
+
+1. Version 1, effective from January 1, 2024.
+2. Version 2, effective from January 1, 2026."
+Version Listing & Inquiry,"Which versions of the Employee Training Policy are available, and when did each take effect?","There are three versions of the Employee Training Policy: P09-v1 from 2024-01-01, P09-v2 from 2025-01-01, and P09-v3 from 2026-01-01.","The available versions of the Employee Training Policy and their effective dates are as follows:
+
+1. **Version ID: P09-v1**
+   - Effective from: **2024-01-01**
+
+2. **Version ID: P09-v2**
+   - Effective from: **2025-01-01**
+   - Supersedes: P09-v1
+
+3. **Version ID: P09-v3**
+   - Effective from: **2026-01-01**
+   - Supersedes: P09-v2","The available versions of the Employee Training Policy and their effective dates are as follows:
+
+1. Version 1 - Effective from: January 1, 2024
+2. Version 2 - Effective from: January 1, 2025
+3. Version 3 - Effective from: January 1, 2026"
+Version Listing & Inquiry,"Which versions of the Contractor Site Access Policy are available, and when did each take effect?",There are two versions of the Contractor Site Access Policy: P10-v1 from 2024-01-01 and P10-v2 from 2026-01-01.,"The available versions of the Contractor Site Access Policy and their effective dates are as follows:
+
+1. **Version ID: P10-v1**
+   - Effective from: **2024-01-01**
+   - Supersedes: None
+
+2. **Version ID: P10-v2**
+   - Effective from: **2026-01-01**
+   - Supersedes: P10-v1","The available versions of the Contractor Site Access Policy are:
+
+1. Version 1, effective from January 1, 2024.
+2. Version 2, effective from January 1, 2026."
+Version Listing & Inquiry,"Which versions of the Equipment Maintenance Policy are available, and when did each take effect?",There are two versions of the Equipment Maintenance Policy: P11-v1 from 2024-01-01 and P11-v2 from 2026-01-01.,"The available versions of the Equipment Maintenance Policy are:
+
+1. **Version ID: P11-v1**
+   - Effective from: **2024-01-01**
+   - Supersedes: None
+
+2. **Version ID: P11-v2**
+   - Effective from: **2026-01-01**
+   - Supersedes: P11-v1","The available versions of the Equipment Maintenance Policy are:
+
+1. Version 1, effective from January 1, 2024.
+2. Version 2, effective from January 1, 2026."
+Version Listing & Inquiry,"Which versions of the Customer Complaint Policy are available, and when did each take effect?","There are three versions of the Customer Complaint Policy: P12-v1 from 2024-01-01, P12-v2 from 2025-01-01, and P12-v3 from 2026-01-01.","The available versions of the Customer Complaint Policy and their effective dates are as follows:
+
+1. **Version ID: P12-v1**
+   - Effective from: **2024-01-01**
+   - Supersedes: None
+
+2. **Version ID: P12-v2**
+   - Effective from: **2025-01-01**
+   - Supersedes: P12-v1
+
+3. **Version ID: P12-v3**
+   - Effective from: **2026-01-01**
+   - Supersedes: P12-v2","The available versions of the Customer Complaint Policy and their effective dates are as follows:
+
+1. Version 1 - Effective from: January 1, 2024
+2. Version 2 - Effective from: January 1, 2025
+3. Version 3 - Effective from: January 1, 2026"
+Change Retrieval (e),What scope change was introduced in the Procurement Approval Policy P03-v3?,"The version 3, or P03-v3, adds contractors and consultants in its scope section. This is dated from 2026-01-01, and it expands the scope to cover all employees involved in the procurement process, including department heads, project managers, administrative staff, contractors, and consultants engaged in procurement activities.",The scope change introduced in the Procurement Approval Policy P03-v3 includes the coverage of contractors and consultants engaged in procurement activities. This expands the policy's applicability beyond just employees involved in the procurement process.,The provided context does not contain enough information to answer this question.
+Change Retrieval (e),What purchase approval limits changed in P03-v3?,"Department-head approval changed from $500 to $750; Finance approval from $2,500 to $3,000.","In P03-v3, the purchase approval limits changed as follows:
+
+- The department-head approval threshold increased from $500 to $750.
+- The Finance Department's secondary approval threshold increased from $2,500 to $3,000.","In P03-v3, the purchase approval limits changed as follows:
+
+1. The amount requiring prior approval from department heads increased from $500 to $750.
+2. The amount requiring secondary approval from the Finance Department increased from $2,500 to $3,000. 
+
+Additionally, the threshold for which a Purchase Request Form must be forwarded to the Finance Department also changed from $2,500 to $3,000, and the threshold for purchases requiring a centralized log was updated from $2,500 to $3,000."
+Change Retrieval (e),What changed about emergency access exceptions in the IT Access Policy P06-v3?,"The change was in the approval time. In the version 2, the approval time by the IT Director was within 24 hours. In the version 3, P06-v3, the approval time for exceptions was changed to 12 hours.",The change regarding emergency access exceptions in the IT Access Policy P06-v3 is that the deadline for documenting the request and obtaining IT Director approval has decreased from 24 hours to 12 hours after access is granted.,The change regarding emergency access exceptions in the IT Access Policy P06-v3 is that the deadline for documenting the request and obtaining IT Director approval has decreased from 24 hours to 12 hours after access is granted.
+Change Retrieval (e),What access-request processing change was introduced in P06-v3?,The change was in the processing time.The processing time for access requests was switched from three business days to two business days.,The access-request processing change introduced in P06-v3 is that the IT department's processing time for access requests decreased from three business days to two business days after supervisor approval.,"In P06-v3, the access-request processing time was changed from 'three business days' to 'two business days' after supervisor approval."
+Change Retrieval (e),What scope change was introduced in the Mandatory Training Policy P09-v3?,The scope now includes any additional training deemed necessary by department heads.,"The scope change introduced in the Mandatory Training Policy P09-v3 now includes ""additional training deemed necessary by department heads."" This expands the previous scope, which encompassed only mandatory training programs identified by the company.","The scope change introduced in the Mandatory Training Policy P09-v3 includes the expansion of the policy description to encompass additional training deemed necessary by department heads, moving beyond just mandatory training programs."
+Change Retrieval (e),What training requirements changed in P09-v3?,"All employees must complete mandatory training within 45 days(instead of 30 days) of their start date or within the timeframe specified by their department head. In addition, the annual professional development requirement increased from 10 hours to 15 hours.","In P09-v3, the training requirements changed as follows:
+
+1. The standard completion period for mandatory training after an employee's start date increased from 30 days to 45 days.
+2. The annual professional development minimum increased from 10 hours to 15 hours.
+3. Mandatory training now also includes additional training deemed necessary by department heads.","The training requirements in P09-v3 changed as follows:
+
+1. The mandatory training completion timeframe was extended from 30 days to 45 days after an employee's start date.
+2. The minimum annual professional development training hours increased from 10 hours to 15 hours.
+3. The scope of mandatory training was expanded to include additional training deemed necessary by department heads."
+Change Retrieval (i),In which version did the Travel and Accommodation Policy start covering contractors and temporary staff?,"In the version 2, the new policy is named as P01-v2.","The Travel and Accommodation Policy started covering contractors and temporary staff in version P01-v2, which is effective from January 1, 2026.",The Travel and Accommodation Policy started covering contractors and temporary staff in Version 2.
+Change Retrieval (i),When were the travel request notice period increased to 21 days and the additional approval threshold raised to $750?,"P01-v2, effective 2026-01-01",The travel request notice period was increased to 21 days and the additional approval threshold was raised to $750 in the document identified as P01-v2.md.,"The travel request notice period was increased to 21 days, and the additional approval threshold was raised to $750 in the revised policy, which is part of the changes documented in version 2 of the policy."
+Change Retrieval (i),Which version reduced the Supplier Approval Committee’s decision period to 10 business days?,"In the version 2, the new policy is named as P04-v2.",The version that reduced the Supplier Approval Committee’s decision period to 10 business days is P04-v2.,The provided context does not contain enough information to answer this question.
+Change Retrieval (i),Since when must supplier onboarding records be kept for at least seven years?,Since 2026-01-01. It is stated in the new version of policy under the name P04-v2.,"Supplier onboarding records must be kept for at least seven years starting from January 1, 2026, as per the updated Supplier Onboarding Policy (Version ID: P04-v2).","Supplier onboarding records must be kept for at least seven years starting from January 1, 2026, as per the updated Supplier Onboarding Policy (Version 2)."
+Change Retrieval (i),In which version was the notice for a Remote Work Request Form shortened to one week?,"In the version 2, the new policy is named as P07-v2.",The notice for a Remote Work Request Form was shortened to one week in version P07-v2.,The notice for a Remote Work Request Form was shortened to one week in version 2.
+Change Retrieval (i),Was the three-business-day exception approval period already present in P07-v1?,"No, the three-business-day exception approval period was introduced in P07-v2. In P07-v1, the approval period was five business days.",The provided context does not contain enough information to answer this question.,"The provided context indicates that the approval timeline for exceptions was changed from ""within five business days"" to ""within three business days"" in version P07-v2. This implies that the three-business-day exception approval period was not present in P07-v1, as it was introduced in the subsequent version."
