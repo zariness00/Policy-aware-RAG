@@ -6,6 +6,7 @@ Requires OPENAI_API_KEY. Nothing is generated until this script is run.
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import os
 import re
@@ -20,6 +21,14 @@ EFFECTIVE_DATES = ("2024-01-01", "2025-01-01", "2026-01-01")
 SECTION_NAMES = ("purpose", "scope", "requirements", "exceptions", "procedure", "records")
 CHANGEABLE_SECTIONS = SECTION_NAMES[1:]
 EXPLICIT_CHANGE_POLICIES = {"P03", "P06", "P09"}
+CATEGORY_NAMES = {
+    "content_retrieval": "Content Retrieval",
+    "content_retrieval_complex": "Content Retrieval Complex",
+    "content_retrieval_version_specific": "Version-Specific Content Retrieval",
+    "version_listing": "Version Listing & Inquiry",
+    "change_explicit": "Change Retrieval (e)",
+    "change_implicit": "Change Retrieval (i)",
+}
 
 
 POLICY_TOPICS = (
@@ -187,7 +196,7 @@ def version_dates(policy_number: int) -> tuple[str, ...]:
 
 def render_document(
     topic: dict, version_id: str, effective_from: str, supersedes: str | None,
-    sections: dict, revision_notes: list[dict] | None = None,
+    sections: dict,
 ) -> str:
     lines = [
         f"# {topic['title']}", "",
@@ -198,11 +207,26 @@ def render_document(
     ]
     for name in SECTION_NAMES:
         lines.extend((f"## {name.title()}", "", sections[name], ""))
-    if revision_notes:
-        lines.extend(("## Revision notes", "", f"Changes from {supersedes}:", ""))
-        for change in revision_notes:
-            lines.append(f"- {change['instruction']}")
-        lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def render_release_notes(
+    topic: dict, version_id: str, effective_from: str, supersedes: str,
+    changes: list[dict],
+) -> str:
+    """Create a short, separate change document for one policy version."""
+    lines = [
+        f"# {topic['title']}", "",
+        "Document type: Release notes",
+        f"Policy ID: {topic['id']}",
+        f"Version ID: {version_id}",
+        f"Effective from: {effective_from}",
+        f"Changes from: {supersedes}", "",
+        "## Changes", "",
+    ]
+    for change in changes:
+        instruction = " ".join(change["instruction"].split())
+        lines.append(f"- {change['section'].title()}: {instruction}")
     return "\n".join(lines).rstrip() + "\n"
 
 
@@ -251,10 +275,9 @@ def create_documents(
                 "supersedes": supersedes,
                 "sections": sections,
                 "revision_changes": brief,
-                "text": render_document(
-                    topic, version_id, effective_from, supersedes, sections,
-                    brief if topic["id"] in EXPLICIT_CHANGE_POLICIES else None,
-                ),
+                "text": render_document(topic, version_id, effective_from, supersedes, sections),
+                "release_notes": render_release_notes(topic, version_id, effective_from, supersedes, brief)
+                if brief and topic["id"] in EXPLICIT_CHANGE_POLICIES else None,
             })
             history.append(sections)
         if on_policy_complete is not None:
@@ -340,18 +363,42 @@ def question_specs(documents: list[dict], as_of: date) -> list[dict]:
     for policy_id in ("P03", "P06", "P09"):
         old, new = versions(policy_id)[-2:]
         for change in new["revision_changes"][:2]:
-            add("change_explicit", policy_id, None, [old, new], [new], ["revision_notes"],
-                f"Ask what documented change in the {change['section']} section the revision notes "
-                f"report from {old['version_id']} to {new['version_id']}. Quote that note as evidence.")
+            add("change_explicit", policy_id, None, [old, new], [new], ["release_notes"],
+                f"Ask what changed in the {change['section']} rule in {new['version_id']}. "
+                "The answer must state the old and new rule where applicable. "
+                "Use the separate release notes as evidence; the question need not mention the notes.")
 
+    implicit_styles = {
+        "P01": (
+            "Ask in which version a concrete new scope rule first appeared. "
+            "Do not reveal the answer version in the question; answer with its version ID.",
+            "Ask when concrete new requirement values first took effect. "
+            "Mention the new values, but not the answer version or effective date in the question. "
+            "Answer with both version ID and effective date.",
+        ),
+        "P04": (
+            "Ask which version first introduced a concrete new procedure rule. "
+            "Do not reveal the answer version in the question; answer with its version ID.",
+            "Ask since when a concrete new records rule has applied. "
+            "Do not reveal the effective date in the question; answer with both date and version ID.",
+        ),
+        "P07": (
+            "Ask in which version a concrete new requirement first appeared. "
+            "Do not reveal the answer version in the question; answer with its version ID.",
+            "Ask whether the new exception rule was already present in the older version. "
+            "The question may name the older version, but must not name the answer version. "
+            "Answer no, identify the new version, and state the old rule.",
+        ),
+    }
     for policy_id in ("P01", "P04", "P07"):
         old, new = versions(policy_id)[-2:]
         changed = [section for section in CHANGEABLE_SECTIONS
                    if old["sections"][section] != new["sections"][section]]
-        for section in changed[:2]:
+        for index, section in enumerate(changed[:2]):
             add("change_implicit", policy_id, None, [old, new], [old, new], [section, section],
-                f"Ask what changed in the {section} rule between {old['version_id']} and "
-                f"{new['version_id']}. There are no revision notes; infer the change from both documents.")
+                f"Use the {section} section. {implicit_styles[policy_id][index]} "
+                "Infer the change by comparing both policy versions; no release notes are available "
+                f"for this policy. The new version took effect on {new['effective_from']}.")
 
     expected = {
         "content_retrieval": 12,
@@ -403,10 +450,15 @@ def create_questions(client, model: str, documents: list[dict], as_of: date) -> 
             "in the specified order and from its corresponding evidence_section. The number of quotes may differ "
             "from the number of required_version_ids. For complex content questions, use two distinct facts "
             "and two distinct quotes from the specified section or sections. "
-            "For explicit changes, quote revision notes. For implicit changes, compare the two version texts. "
+            "For explicit changes, quote the separate release notes. "
+            "For implicit changes, compare the two version texts and answer which version or when. "
             "Do not invent a policy rule or answer for a different date.",
             {"policy": topic, "specifications": model_specs,
-             "documents": [{"version_id": doc["version_id"], "text": doc["text"]} for doc in policy_docs]},
+             "documents": [
+                 {"version_id": doc["version_id"], "text": doc["text"],
+                  "release_notes": doc.get("release_notes")}
+                 for doc in policy_docs
+             ]},
         )["questions"]
         by_id = {item["id"]: item for item in generated}
         if len(generated) != len(model_specs) or set(by_id) != {spec["id"] for spec in model_specs}:
@@ -425,8 +477,8 @@ def create_questions(client, model: str, documents: list[dict], as_of: date) -> 
                 spec["evidence_source_ids"], spec["evidence_sections"], quotes
             ):
                 source = docs_by_id[version_id]
-                if section == "revision_notes":
-                    source_text = source["text"].split("## Revision notes\n\n", 1)[1] if "## Revision notes\n\n" in source["text"] else ""
+                if section == "release_notes":
+                    source_text = source.get("release_notes") or ""
                 elif section == "header":
                     source_text = source["text"].split("## Purpose", 1)[0]
                 else:
@@ -446,27 +498,33 @@ def create_questions(client, model: str, documents: list[dict], as_of: date) -> 
     return sorted(questions, key=lambda item: item["id"])
 
 
-def render_changes(briefs: list[dict]) -> str:
-    lines = ["# Policy version changes", ""]
-    for brief in briefs:
-        lines.extend((f"## {brief['from_version_id']} → {brief['to_version_id']}", ""))
-        for change in brief["changes"]:
-            lines.append(f"- **{change['section'].title()}:** {change['instruction']}")
-        lines.append("")
-    return "\n".join(lines).rstrip() + "\n"
-
-
-def save_documents(output: Path, documents: list[dict], briefs: list[dict]) -> None:
-    """Save complete Markdown documents and a readable change log."""
+def save_documents(output: Path, documents: list[dict]) -> None:
+    """Save complete policies and separate release notes where available."""
     (output / "policies").mkdir(parents=True, exist_ok=True)
     for doc in documents:
         (output / "policies" / f"{doc['version_id']}.md").write_text(doc["text"], encoding="utf-8")
-    (output / "changes.md").write_text(render_changes(briefs), encoding="utf-8")
+        if doc.get("release_notes"):
+            notes_dir = output / "release_notes"
+            notes_dir.mkdir(parents=True, exist_ok=True)
+            (notes_dir / f"{doc['version_id']}-release-notes.md").write_text(
+                doc["release_notes"], encoding="utf-8"
+            )
 
 
-def save_dataset(output: Path, documents: list[dict], briefs: list[dict], questions: list[dict]) -> None:
-    save_documents(output, documents, briefs)
-    (output / "questions.json").write_text(json.dumps(questions, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+def save_dataset(output: Path, documents: list[dict], questions: list[dict]) -> None:
+    save_documents(output, documents)
+    (output / "questions_full_version.json").write_text(
+        json.dumps(questions, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
+    with (output / "questions_final.csv").open("w", newline="", encoding="utf-8") as file:
+        writer = csv.DictWriter(file, fieldnames=["Type", "Question", "Answer"], lineterminator="\n")
+        writer.writeheader()
+        for question in questions:
+            writer.writerow({
+                "Type": CATEGORY_NAMES[question["category"]],
+                "Question": question["question"],
+                "Answer": question["expected_answer"],
+            })
 
 
 def save_checkpoint(path: Path, documents: list[dict], briefs: list[dict]) -> None:
@@ -506,8 +564,8 @@ def main() -> None:
     client = OpenAI()
     if args.policy:
         documents, briefs = create_documents(client, args.model, args.policy)
-        save_documents(output, documents, briefs)
-        print(f"Created {len(documents)} versions and a change summary in {output}")
+        save_documents(output, documents)
+        print(f"Created {len(documents)} versions and their release notes in {output}")
         print("Please review the versions and changes before using them as ground truth")
     else:
         if args.overwrite and checkpoint_path.exists():
@@ -519,7 +577,7 @@ def main() -> None:
             on_policy_complete=lambda docs, changes: save_checkpoint(checkpoint_path, docs, changes),
         )
         questions = create_questions(client, args.model, documents, args.as_of)
-        save_dataset(output, documents, briefs, questions)
+        save_dataset(output, documents, questions)
         checkpoint_path.unlink(missing_ok=True)
         print(f"Created {len(documents)} versions and {len(questions)} questions in {output}")
         print("Please review everything before using them as ground truth")
