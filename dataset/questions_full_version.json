@@ -15,7 +15,7 @@
     "evidence_quotes": [
       "Exceptions to this policy may be granted in cases of urgent business needs or unforeseen circumstances. Employees seeking an exception must submit a written request to the HR department, which will be reviewed on a case-by-case basis and must be approved by the Chief Financial Officer (CFO)."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -34,7 +34,7 @@
     "evidence_quotes": [
       "This policy applies to all employees of the company who incur expenses while performing their job duties."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -53,7 +53,7 @@
     "evidence_quotes": [
       "All approved Purchase Request Forms must be retained for a minimum of three years in the department's procurement records."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -62,7 +62,7 @@
     "policy_id": "P04",
     "as_of": null,
     "question": "What departments does the Supplier Onboarding Policy apply to?",
-    "expected_answer": "This policy applies to all departments within the company that engage with external suppliers for goods and services.",
+    "expected_answer": "This policy applies to all departments within the company that engage with external suppliers for goods and services. It encompasses all potential suppliers, regardless of their size or the nature of the products or services they provide, and is applicable to both domestic and international suppliers.",
     "required_version_ids": [
       "P04-v2"
     ],
@@ -70,9 +70,9 @@
       "P04-v2"
     ],
     "evidence_quotes": [
-      "This policy applies to all departments within the company that engage with external suppliers for goods and services."
+      "This policy applies to all departments within the company that engage with external suppliers for goods and services. It encompasses all potential suppliers, regardless of their size or the nature of the products or services they provide, and is applicable to both domestic and international suppliers."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -91,7 +91,7 @@
     "evidence_quotes": [
       "All employees must report any suspected security incident to the IT Security Team within 24 hours of detection."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -110,7 +110,7 @@
     "evidence_quotes": [
       "All access requests and reviews must be documented and stored in the IT Access Management System for a minimum of three years."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -129,7 +129,7 @@
     "evidence_quotes": [
       "This policy applies to all full-time employees of the company who have completed their probationary period. Part-time employees and contractors may be considered for remote work on a case-by-case basis, subject to managerial discretion."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -167,7 +167,7 @@
     "evidence_quotes": [
       "Employees may request an extension for mandatory training due to extenuating circumstances, such as medical leave or personal emergencies."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -184,9 +184,9 @@
       "P10-v2"
     ],
     "evidence_quotes": [
-      "All contractors must complete a site induction training session prior to accessing any company premises."
+      "All contractors must complete a site induction training session prior to accessing any company premises. This training must be completed at least 48 hours before the scheduled start date of their work, and a record of completion must be submitted to the site manager for approval."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -195,7 +195,7 @@
     "policy_id": "P11",
     "as_of": null,
     "question": "What are the exceptions to the Equipment Maintenance Policy?",
-    "expected_answer": "Exceptions to this policy may be granted in cases of emergency equipment failure, where immediate action is required to prevent operational disruption. Employees must notify their supervisor and the Equipment Maintenance Coordinator as soon as possible, and a post-incident report must be submitted within 48 hours detailing the circumstances and actions taken.",
+    "expected_answer": "Exceptions to this policy may be granted in cases of emergency equipment failure, where immediate action is required to prevent operational disruption.",
     "required_version_ids": [
       "P11-v2"
     ],
@@ -205,7 +205,7 @@
     "evidence_quotes": [
       "Exceptions to this policy may be granted in cases of emergency equipment failure, where immediate action is required to prevent operational disruption. In such cases, employees must notify their supervisor and the Equipment Maintenance Coordinator as soon as possible, and a post-incident report must be submitted within 48 hours detailing the circumstances and actions taken."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -214,7 +214,7 @@
     "policy_id": "P12",
     "as_of": null,
     "question": "What is the minimum duration for which records of customer complaints must be maintained?",
-    "expected_answer": "Records should be maintained for a minimum of 2 years.",
+    "expected_answer": "Records should be maintained for a minimum of 2 years. Moreover, quarterly reports summarizing complaint trends and resolutions must be submitted to the Quality Assurance team for review",
     "required_version_ids": [
       "P12-v3"
     ],
@@ -224,9 +224,8 @@
     "evidence_quotes": [
       "Records should be maintained for a minimum of 2 years."
     ],
-    "review_status": "needs_manual_correction",
+    "review_status": "reviewed",
     "validation_issues": [
-      "Evidence quote missing from P12-v3/records"
     ]
   },
   {
@@ -235,7 +234,7 @@
     "policy_id": "P01",
     "as_of": null,
     "question": "What is the process for requesting exceptions and what must be done to initiate travel arrangements?",
-    "expected_answer": "Employees seeking an exception must submit a written request to the HR department, which will be reviewed on a case-by-case basis and must be approved by the Chief Financial Officer (CFO). To initiate travel arrangements, employees must complete the travel request form and submit it to their supervisor for approval.",
+    "expected_answer": "Employees seeking an exception must submit a written request to the HR department, which will be reviewed on a case-by-case basis and must be approved by the Chief Financial Officer (CFO). To initiate travel arrangements, employees must complete the travel request form at least 21 days prior to the scheduled departure and submit it to their supervisor for approval. Do not forget to receive a pre-approval for travel expenses, those expenses exceeding 750 USD must be approved additionally.",
     "required_version_ids": [
       "P01-v2"
     ],
@@ -247,7 +246,7 @@
       "Employees seeking an exception must submit a written request to the HR department, which will be reviewed on a case-by-case basis and must be approved by the Chief Financial Officer (CFO).",
       "To initiate travel arrangements, employees must complete the travel request form and submit it to their supervisor for approval."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -256,7 +255,7 @@
     "policy_id": "P02",
     "as_of": null,
     "question": "What types of expenses are covered by the Expense Claims Policy and what is the process for submitting a claim?",
-    "expected_answer": "The policy covers all types of expenses, including travel, meals, lodging, and other business-related costs. To submit an expense claim, employees must complete the designated expense claim form and attach all required documentation.",
+    "expected_answer": "The policy covers all types of expenses, including travel, meals, lodging, and other business-related costs. To submit an expense claim, employees must complete the designated expense claim form and attach all required documentation. Then, submit everything to their supervisor for approval and wait for their verdict.",
     "required_version_ids": [
       "P02-v2"
     ],
@@ -268,7 +267,7 @@
       "It covers all types of expenses, including travel, meals, lodging, and other business-related costs.",
       "To submit an expense claim, employees must complete the designated expense claim form and attach all required documentation."
     ],
-    "review_status": "needs_manual_correction",
+    "review_status": "reviewed",
     "validation_issues": [
       "Evidence quote missing from P02-v2/scope"
     ]
@@ -279,7 +278,7 @@
     "policy_id": "P03",
     "as_of": null,
     "question": "What are the requirements for purchase approvals and the retention of records?",
-    "expected_answer": "All purchases exceeding $500 must receive prior approval from the respective department head, and all approved Purchase Request Forms must be retained for a minimum of three years.",
+    "expected_answer": "According to the latest version, all purchases exceeding 750 USD must receive prior approval from the respective department head. If a purchase exceeds 3000 USD, then it requires a secondary approval from the Finance Department. Regarding the retention of records, all approved Purchase Request Forms must be retained for a minimum of three years in the department's procurement records.",
     "required_version_ids": [
       "P03-v3"
     ],
@@ -288,10 +287,10 @@
       "P03-v3"
     ],
     "evidence_quotes": [
-      "All purchases exceeding $500 must receive prior approval from the respective department head.",
+      "All purchases exceeding $750 must receive prior approval from the respective department head.",
       "All approved Purchase Request Forms must be retained for a minimum of three years in the department's procurement records."
     ],
-    "review_status": "needs_manual_correction",
+    "review_status": "reviewed",
     "validation_issues": [
       "Evidence quote missing from P03-v3/records"
     ]
@@ -302,7 +301,7 @@
     "policy_id": "P04",
     "as_of": null,
     "question": "What are the requirements for new suppliers and what does the scope of the policy encompass?",
-    "expected_answer": "All new suppliers must complete a Supplier Evaluation Form and the policy encompasses all potential suppliers, regardless of their size or the nature of the products or services they provide.",
+    "expected_answer": "All new suppliers must complete a Supplier Evaluation Form and at least three references from current or past clients. The policy encompasses all potential suppliers, regardless of their size or the nature of the products or services they provide. Moreover, it applies to both domestic and international suppliers.",
     "required_version_ids": [
       "P04-v2"
     ],
@@ -314,7 +313,7 @@
       "It encompasses all potential suppliers, regardless of their size or the nature of the products or services they provide.",
       "All new suppliers must complete a Supplier Evaluation Form, which includes details about their financial stability, compliance with industry regulations, and ethical practices."
     ],
-    "review_status": "needs_manual_correction",
+    "review_status": "reviewed",
     "validation_issues": [
       "Evidence quote missing from P04-v2/scope"
     ]
@@ -325,7 +324,7 @@
     "policy_id": "P05",
     "as_of": null,
     "question": "What are the requirements for reporting a suspected security incident and the conditions under which exceptions may be granted?",
-    "expected_answer": "Employees must report suspected security incidents within 24 hours, and exceptions may be granted by the CISO if reporting compromises investigations or is a false alarm.",
+    "expected_answer": "Employees must report suspected security incidents within 24 hours, including a detailed description, time, and any actions taken prior to reporting. Exceptions may be granted by the CISO if reporting compromises investigations or is a false alarm.",
     "required_version_ids": [
       "P05-v2"
     ],
@@ -337,7 +336,7 @@
       "All employees must report any suspected security incident to the IT Security Team within 24 hours of detection.",
       "Exceptions to this policy may be granted only by the Chief Information Security Officer (CISO) in cases where reporting may compromise ongoing investigations or where the incident is deemed to be a false alarm."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -346,7 +345,7 @@
     "policy_id": "P06",
     "as_of": null,
     "question": "What are the requirements for access requests and how often must access be reviewed?",
-    "expected_answer": "Access requests must be submitted through the IT Access Request Form and approved by the employee's supervisor and the IT Manager. Access must be reviewed at least every six months for all roles.",
+    "expected_answer": "Access requests must be submitted through the IT Access Request Form and approved by the employee's supervisor and the IT Manager. Access must be reviewed at least every three months for high-risk roles and at least every six months for all other roles.",
     "required_version_ids": [
       "P06-v3"
     ],
@@ -356,9 +355,9 @@
     ],
     "evidence_quotes": [
       "All access requests must be submitted through the IT Access Request Form and require approval from the employee's direct supervisor and the IT Manager.",
-      "Access must be reviewed at least every six months to ensure that it remains appropriate based on the user's role and responsibilities."
+      "Access must be reviewed at least every three months for high-risk roles and at least every six months for all other roles."
     ],
-    "review_status": "needs_manual_correction",
+    "review_status": "reviewed",
     "validation_issues": [
       "Evidence quote missing from P06-v3/records",
       "Evidence quote missing from P06-v3/records"
@@ -370,7 +369,7 @@
     "policy_id": "P07",
     "as_of": null,
     "question": "What are the eligibility criteria for remote work and the approval process?",
-    "expected_answer": "The policy applies to full-time employees who have completed their probationary period, and employees must submit a Remote Work Request Form at least one week prior to the desired remote work date for approval.",
+    "expected_answer": "Be a full-time employe who has completed their probationary period.  Secondly, submit the Remote Work Request Form to your supervisor at least one week prior to the desired date. Then, the supervisor has 3 days to review and approve or deny the request. If approved, the request is forwarded to HR for final approval.",
     "required_version_ids": [
       "P07-v2"
     ],
@@ -382,7 +381,7 @@
       "This policy applies to all full-time employees of the company who have completed their probationary period.",
       "Employees must submit a Remote Work Request Form at least one week prior to the desired remote work date."
     ],
-    "review_status": "needs_manual_correction",
+    "review_status": "reviewed",
     "validation_issues": [
       "Evidence quote missing from P07-v2/procedure"
     ]
@@ -405,7 +404,7 @@
       "with a minimum retention period of three years for financial records and five years for employee records.",
       "This policy applies to all employees, contractors, and third-party service providers who create, manage, or dispose of business records within the organization."
     ],
-    "review_status": "needs_manual_correction",
+    "review_status": "reviewed",
     "validation_issues": [
       "Evidence quote missing from P08-v2/scope",
       "Evidence quote missing from P08-v2/requirements"
@@ -429,7 +428,7 @@
       "Such requests must be submitted in writing to the HR department at least 5 business days before the training deadline.",
       "...will be reviewed on a case-by-case basis."
     ],
-    "review_status": "needs_manual_correction",
+    "review_status": "reviewed",
     "validation_issues": [
       "Evidence quote missing from P09-v3/exceptions",
       "Evidence quote missing from P09-v3/exceptions"
@@ -441,7 +440,7 @@
     "policy_id": "P10",
     "as_of": null,
     "question": "What are the requirements for contractor induction and what exceptions exist for immediate access?",
-    "expected_answer": "Contractors must complete induction training 48 hours before access, but exceptions can be made in emergencies where training must be completed within 24 hours.",
+    "expected_answer": "Contractors must complete induction training 48 hours before their start date, and submit a record of completion to the site manager. Exceptions can be made in emergencies where training must be completed within 24 hours, make sure to notify the site manager.",
     "required_version_ids": [
       "P10-v2"
     ],
@@ -453,7 +452,7 @@
       "This training must be completed at least 48 hours before the scheduled start date of their work, and a record of completion must be submitted to the site manager for approval.",
       "In such cases, the contractor must notify the site manager immediately and complete the induction training within 24 hours of access."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -462,7 +461,7 @@
     "policy_id": "P11",
     "as_of": null,
     "question": "What are the procedures for handling equipment maintenance requests and what exceptions apply?",
-    "expected_answer": "Employees must complete the Equipment Maintenance Checklist and submit it to their supervisor at the end of each week. Exceptions may be granted in cases of emergency equipment failure, where immediate action is required to prevent operational disruption.",
+    "expected_answer": "Employees must complete the Equipment Maintenance Checklist and submit it to their supervisor at the end of each week. Exceptions may be granted in cases of emergency equipment failure, where immediate action is required to prevent operational disruption. Here, they mustnotify their supervisor and the Equipment Maintenance Coordinator as soon as possible, then they will be notified about the next steps.",
     "required_version_ids": [
       "P11-v2"
     ],
@@ -474,7 +473,7 @@
       "Employees must complete the Equipment Maintenance Checklist and submit it to their supervisor at the end of each week.",
       "Exceptions to this policy may be granted in cases of emergency equipment failure, where immediate action is required to prevent operational disruption."
     ],
-    "review_status": "needs_manual_correction",
+    "review_status": "reviewed",
     "validation_issues": [
       "Evidence quote missing from P11-v2/exceptions",
       "Evidence quote missing from P11-v2/procedure"
@@ -486,7 +485,7 @@
     "policy_id": "P12",
     "as_of": null,
     "question": "What are the requirements for acknowledging and documenting customer complaints?",
-    "expected_answer": "Customer complaints must be acknowledged within 12 hours and documented within 24 hours of acknowledgment.",
+    "expected_answer": "Customer complaints must be acknowledged within 12 hours and documented in the CRM system within 24 hours of acknowledgment. When documenting, include the customer's name, contact information, and a summary of the issue.",
     "required_version_ids": [
       "P12-v3"
     ],
@@ -498,7 +497,7 @@
       "All customer complaints must be acknowledged within 12 hours of receipt.",
       "Employees are required to document the complaint details in the Customer Relationship Management (CRM) system, including the customer's name, contact information, and a summary of the issue, within 24 hours of acknowledgment."
     ],
-    "review_status": "needs_manual_correction",
+    "review_status": "reviewed",
     "validation_issues": [
       "Evidence quote missing from P12-v3/records",
       "Evidence quote missing from P12-v3/records"
@@ -548,7 +547,7 @@
     "policy_id": "P03",
     "as_of": "2025-06-01",
     "question": "What is the scope of the Procurement Approval Policy as of 2025-06-01?",
-    "expected_answer": "The policy applies to all employees involved in the procurement process, including department heads, project managers, and administrative staff, covering all purchases made on behalf of the company.",
+    "expected_answer": "The policy applies to all employees involved in the procurement process, including but not limited to department heads, project managers, and administrative staff, covering all purchases made on behalf of the company.",
     "required_version_ids": [
       "P03-v2"
     ],
@@ -559,7 +558,7 @@
       "This policy applies to all employees involved in the procurement process, including but not limited to department heads, project managers, and administrative staff.",
       "It covers all purchases made on behalf of the company, regardless of the payment method or vendor."
     ],
-    "review_status": "needs_manual_correction",
+    "review_status": "reviewed",
     "validation_issues": [
       "Wrong number of evidence quotes"
     ]
@@ -570,7 +569,7 @@
     "policy_id": "P04",
     "as_of": "2024-06-01",
     "question": "What is the procedure for onboarding suppliers as of 2024-06-01?",
-    "expected_answer": "The onboarding process begins with the completion of the Supplier Evaluation Form, followed by a review by the procurement team. Once the evaluation is complete, the procurement team will present their findings to the Supplier Approval Committee, which will make a decision within 15 business days.",
+    "expected_answer": "The onboarding process begins with the completion of the Supplier Evaluation Form, followed by a review by the procurement team. Once the evaluation is complete, the procurement team will present their findings to the Supplier Approval Committee, which will make a decision within 15 business days. If approved, a formal contract will be drafted and sent to the supplier for signature.",
     "required_version_ids": [
       "P04-v1"
     ],
@@ -581,7 +580,7 @@
       "The onboarding process begins with the completion of the Supplier Evaluation Form, followed by a review by the procurement team.",
       "Once the evaluation is complete, the procurement team will present their findings to the Supplier Approval Committee, which will make a decision within 15 business days."
     ],
-    "review_status": "needs_manual_correction",
+    "review_status": "reviewed",
     "validation_issues": [
       "Wrong number of evidence quotes"
     ]
@@ -602,7 +601,7 @@
     "evidence_quotes": [
       "This policy applies to all employees, contractors, and third-party vendors who have access to the company’s information systems and data."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -611,7 +610,7 @@
     "policy_id": "P06",
     "as_of": "2025-06-01",
     "question": "What rule regarding exceptions was present in the exceptions section of P06-v2 on 2025-06-01?",
-    "expected_answer": "Exceptions may be granted for immediate access required for business continuity, documented and approved by the IT Director within 24 hours.",
+    "expected_answer": "Exceptions may be granted for immediate access required for business continuity, documented and approved by the IT Director within 24 hours of access being granted.",
     "required_version_ids": [
       "P06-v2"
     ],
@@ -621,7 +620,7 @@
     "evidence_quotes": [
       "Exceptions to this policy may be granted in cases where immediate access is required for business continuity, such as during system outages. In such cases, the request must be documented and approved by the IT Director within 24 hours of access being granted."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -630,7 +629,7 @@
     "policy_id": "P07",
     "as_of": "2024-06-01",
     "question": "What is the requirement for submitting a Remote Work Request Form in P07-v1 as of 2024-06-01?",
-    "expected_answer": "Employees must submit a Remote Work Request Form at least two weeks prior to the desired remote work date.",
+    "expected_answer": "Employees must submit a Remote Work Request Form at least two weeks prior to the desired remote work date. Moreover, the approval is required from the employee's direct supervisor and the HR department before the remote work arrangement can be finalized. Lastly, the employee must ensure that all necessary equipment and resources are available for remote work.",
     "required_version_ids": [
       "P07-v1"
     ],
@@ -640,7 +639,7 @@
     "evidence_quotes": [
       "Employees must submit a Remote Work Request Form at least two weeks prior to the desired remote work date."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -649,7 +648,7 @@
     "policy_id": "P08",
     "as_of": "2024-06-01",
     "question": "What is the rule regarding exceptions to the retention schedule in version P08-v1 as of 2024-06-01?",
-    "expected_answer": "Exceptions to the retention schedule may be granted only with written approval from the department head and must be documented in the records management system.",
+    "expected_answer": "Exceptions to the retention schedule may be granted only with written approval from the department head and must be documented in the records management system. If records are needed for an ongoing lawsuit or audit, keep them until it ends, even if their normal retention period has passed ",
     "required_version_ids": [
       "P08-v1"
     ],
@@ -659,7 +658,7 @@
     "evidence_quotes": [
       "Exceptions to the retention schedule may be granted only with written approval from the department head and must be documented in the records management system."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -679,7 +678,7 @@
       "This policy applies to all employees of the company, including full-time, part-time, and temporary staff.",
       "It encompasses all mandatory training programs identified by the company, including safety, compliance, and job-specific training modules."
     ],
-    "review_status": "needs_manual_correction",
+    "review_status": "reviewed",
     "validation_issues": [
       "Wrong number of evidence quotes"
     ]
@@ -690,7 +689,7 @@
     "policy_id": "P10",
     "as_of": "2024-06-01",
     "question": "What is the scope of the Contractor Site Access Policy as of 2024-06-01?",
-    "expected_answer": "The policy applies to all contractors, subcontractors, and their employees who require access to any company site, including maintenance, construction, and consultancy services.",
+    "expected_answer": "The policy applies to all contractors, subcontractors, and their employees who require access to any company site, including maintenance, construction, and consultancy services. Moreover, it covers all work types, including maintenance, construction, and consultancy services.",
     "required_version_ids": [
       "P10-v1"
     ],
@@ -719,7 +718,7 @@
     "evidence_quotes": [
       "This policy applies to all employees who operate, manage, or oversee company equipment, including machinery, vehicles, and electronic devices. It encompasses all equipment owned or leased by the company, regardless of its location or usage context."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -728,7 +727,7 @@
     "policy_id": "P12",
     "as_of": "2025-06-01",
     "question": "What is the acknowledgment time frame for customer complaints in P12-v2 as of 2025-06-01?",
-    "expected_answer": "Customer complaints must be acknowledged within 24 hours of receipt in P12-v2.",
+    "expected_answer": "Customer complaints must be acknowledged within 12 hours of receipt in P12-v2.",
     "required_version_ids": [
       "P12-v2"
     ],
@@ -738,7 +737,7 @@
     "evidence_quotes": [
       "All customer complaints must be acknowledged within 12 hours of receipt."
     ],
-    "review_status": "needs_manual_correction",
+    "review_status": "reviewed",
     "validation_issues": [
       "Evidence quote missing from P12-v2/scope"
     ]
@@ -749,7 +748,7 @@
     "policy_id": "P01",
     "as_of": null,
     "question": "Which versions of the Travel and Accommodation Policy are available, and when did each take effect?",
-    "expected_answer": "P01-v1 from 2024-01-01; P01-v2 from 2026-01-01.",
+    "expected_answer": "There are two versions of the Travel and Accommodation Policy: P01-v1 from 2024-01-01; P01-v2 from 2026-01-01.",
     "required_version_ids": [
       "P01-v1",
       "P01-v2"
@@ -762,7 +761,7 @@
       "Version ID: P01-v1\nEffective from: 2024-01-01",
       "Version ID: P01-v2\nEffective from: 2026-01-01"
     ],
-    "review_status": "pending_manual_review"
+    "review_status": "reviewed"
   },
   {
     "id": "Q38",
@@ -770,7 +769,7 @@
     "policy_id": "P02",
     "as_of": null,
     "question": "Which versions of the Expense Claims Policy are available, and when did each take effect?",
-    "expected_answer": "P02-v1 from 2024-01-01; P02-v2 from 2026-01-01.",
+    "expected_answer": "There are two versions available: P02-v1 from 2024-01-01 and P02-v2 from 2026-01-01.",
     "required_version_ids": [
       "P02-v1",
       "P02-v2"
@@ -783,7 +782,7 @@
       "Version ID: P02-v1\nEffective from: 2024-01-01",
       "Version ID: P02-v2\nEffective from: 2026-01-01"
     ],
-    "review_status": "pending_manual_review"
+    "review_status": "reviewed"
   },
   {
     "id": "Q39",
@@ -791,7 +790,7 @@
     "policy_id": "P03",
     "as_of": null,
     "question": "Which versions of the Procurement Approval Policy are available, and when did each take effect?",
-    "expected_answer": "P03-v1 from 2024-01-01; P03-v2 from 2025-01-01; P03-v3 from 2026-01-01.",
+    "expected_answer": "There are three versions of the Procurement Approval Policy: P03-v1 from 2024-01-01, P03-v2 from 2025-01-01, and P03-v3 from 2026-01-01.",
     "required_version_ids": [
       "P03-v1",
       "P03-v2",
@@ -807,7 +806,7 @@
       "Version ID: P03-v2\nEffective from: 2025-01-01",
       "Version ID: P03-v3\nEffective from: 2026-01-01"
     ],
-    "review_status": "pending_manual_review"
+    "review_status": "reviewed"
   },
   {
     "id": "Q40",
@@ -815,7 +814,7 @@
     "policy_id": "P04",
     "as_of": null,
     "question": "Which versions of the Supplier Onboarding Policy are available, and when did each take effect?",
-    "expected_answer": "P04-v1 from 2024-01-01; P04-v2 from 2026-01-01.",
+    "expected_answer": "There are two versions of the Supplier Onboarding Policy: P04-v1 from 2024-01-01; P04-v2 from 2026-01-01.",
     "required_version_ids": [
       "P04-v1",
       "P04-v2"
@@ -828,7 +827,7 @@
       "Version ID: P04-v1\nEffective from: 2024-01-01",
       "Version ID: P04-v2\nEffective from: 2026-01-01"
     ],
-    "review_status": "pending_manual_review"
+    "review_status": "reviewed"
   },
   {
     "id": "Q41",
@@ -836,7 +835,7 @@
     "policy_id": "P05",
     "as_of": null,
     "question": "Which versions of the Security Incident Policy are available, and when did each take effect?",
-    "expected_answer": "P05-v1 from 2024-01-01; P05-v2 from 2026-01-01.",
+    "expected_answer": "There are two versions of the Security Incident Policy: P05-v1 from 2024-01-01 and P05-v2 from 2026-01-01.",
     "required_version_ids": [
       "P05-v1",
       "P05-v2"
@@ -849,7 +848,7 @@
       "Version ID: P05-v1\nEffective from: 2024-01-01",
       "Version ID: P05-v2\nEffective from: 2026-01-01"
     ],
-    "review_status": "pending_manual_review"
+    "review_status": "reviewed"
   },
   {
     "id": "Q42",
@@ -857,7 +856,7 @@
     "policy_id": "P06",
     "as_of": null,
     "question": "Which versions of the IT Access Review Policy are available, and when did each take effect?",
-    "expected_answer": "P06-v1 from 2024-01-01; P06-v2 from 2025-01-01; P06-v3 from 2026-01-01.",
+    "expected_answer": "There are three versions of the IT Access Review Policy: P06-v1 from 2024-01-01, P06-v2 from 2025-01-01, and P06-v3 from 2026-01-01.",
     "required_version_ids": [
       "P06-v1",
       "P06-v2",
@@ -873,7 +872,7 @@
       "Version ID: P06-v2\nEffective from: 2025-01-01",
       "Version ID: P06-v3\nEffective from: 2026-01-01"
     ],
-    "review_status": "pending_manual_review"
+    "review_status": "reviewed"
   },
   {
     "id": "Q43",
@@ -881,7 +880,7 @@
     "policy_id": "P07",
     "as_of": null,
     "question": "Which versions of the Remote Work Policy are available, and when did each take effect?",
-    "expected_answer": "P07-v1 from 2024-01-01; P07-v2 from 2026-01-01.",
+    "expected_answer": "There are two versions of the Remote Work Policy: P07-v1 from 2024-01-01 and P07-v2 from 2026-01-01.",
     "required_version_ids": [
       "P07-v1",
       "P07-v2"
@@ -894,7 +893,7 @@
       "Version ID: P07-v1\nEffective from: 2024-01-01",
       "Version ID: P07-v2\nEffective from: 2026-01-01"
     ],
-    "review_status": "pending_manual_review"
+    "review_status": "reviewed"
   },
   {
     "id": "Q44",
@@ -902,7 +901,7 @@
     "policy_id": "P08",
     "as_of": null,
     "question": "Which versions of the Records Retention Policy are available, and when did each take effect?",
-    "expected_answer": "P08-v1 from 2024-01-01; P08-v2 from 2026-01-01.",
+    "expected_answer": "There are two versions of the Records Retention Policy: P08-v1 from 2024-01-01 and P08-v2 from 2026-01-01.",
     "required_version_ids": [
       "P08-v1",
       "P08-v2"
@@ -915,7 +914,7 @@
       "Version ID: P08-v1\nEffective from: 2024-01-01",
       "Version ID: P08-v2\nEffective from: 2026-01-01"
     ],
-    "review_status": "pending_manual_review"
+    "review_status": "reviewed"
   },
   {
     "id": "Q45",
@@ -923,7 +922,7 @@
     "policy_id": "P09",
     "as_of": null,
     "question": "Which versions of the Employee Training Policy are available, and when did each take effect?",
-    "expected_answer": "P09-v1 from 2024-01-01; P09-v2 from 2025-01-01; P09-v3 from 2026-01-01.",
+    "expected_answer": "There are three versions of the Employee Training Policy: P09-v1 from 2024-01-01, P09-v2 from 2025-01-01, and P09-v3 from 2026-01-01.",
     "required_version_ids": [
       "P09-v1",
       "P09-v2",
@@ -939,7 +938,7 @@
       "Version ID: P09-v2\nEffective from: 2025-01-01",
       "Version ID: P09-v3\nEffective from: 2026-01-01"
     ],
-    "review_status": "pending_manual_review"
+    "review_status": "reviewed"
   },
   {
     "id": "Q46",
@@ -947,7 +946,7 @@
     "policy_id": "P10",
     "as_of": null,
     "question": "Which versions of the Contractor Site Access Policy are available, and when did each take effect?",
-    "expected_answer": "P10-v1 from 2024-01-01; P10-v2 from 2026-01-01.",
+    "expected_answer": "There are two versions of the Contractor Site Access Policy: P10-v1 from 2024-01-01 and P10-v2 from 2026-01-01.",
     "required_version_ids": [
       "P10-v1",
       "P10-v2"
@@ -960,7 +959,7 @@
       "Version ID: P10-v1\nEffective from: 2024-01-01",
       "Version ID: P10-v2\nEffective from: 2026-01-01"
     ],
-    "review_status": "pending_manual_review"
+    "review_status": "reviewed"
   },
   {
     "id": "Q47",
@@ -968,7 +967,7 @@
     "policy_id": "P11",
     "as_of": null,
     "question": "Which versions of the Equipment Maintenance Policy are available, and when did each take effect?",
-    "expected_answer": "P11-v1 from 2024-01-01; P11-v2 from 2026-01-01.",
+    "expected_answer": "There are two versions of the Equipment Maintenance Policy: P11-v1 from 2024-01-01 and P11-v2 from 2026-01-01.",
     "required_version_ids": [
       "P11-v1",
       "P11-v2"
@@ -981,7 +980,7 @@
       "Version ID: P11-v1\nEffective from: 2024-01-01",
       "Version ID: P11-v2\nEffective from: 2026-01-01"
     ],
-    "review_status": "pending_manual_review"
+    "review_status": "reviewed"
   },
   {
     "id": "Q48",
@@ -989,7 +988,7 @@
     "policy_id": "P12",
     "as_of": null,
     "question": "Which versions of the Customer Complaint Policy are available, and when did each take effect?",
-    "expected_answer": "P12-v1 from 2024-01-01; P12-v2 from 2025-01-01; P12-v3 from 2026-01-01.",
+    "expected_answer": "There are three versions of the Customer Complaint Policy: P12-v1 from 2024-01-01, P12-v2 from 2025-01-01, and P12-v3 from 2026-01-01.",
     "required_version_ids": [
       "P12-v1",
       "P12-v2",
@@ -1005,15 +1004,15 @@
       "Version ID: P12-v2\nEffective from: 2025-01-01",
       "Version ID: P12-v3\nEffective from: 2026-01-01"
     ],
-    "review_status": "pending_manual_review"
+    "review_status": "reviewed"
   },
   {
     "id": "Q49",
     "category": "change_explicit",
     "policy_id": "P03",
     "as_of": null,
-    "question": "What documented change in the scope section is reported in the revision notes from P03-v2 to P03-v3?",
-    "expected_answer": "The scope now includes contractors and consultants engaged in procurement activities.",
+    "question": "What scope change was introduced in the Procurement Approval Policy P03-v3?",
+    "expected_answer": "The version 3, or P03-v3, adds contractors and consultants in its scope section. This is dated from 2026-01-01, and it expands the scope to cover all employees involved in the procurement process, including department heads, project managers, administrative staff, contractors, and consultants engaged in procurement activities.",
     "required_version_ids": [
       "P03-v2",
       "P03-v3"
@@ -1024,7 +1023,7 @@
     "evidence_quotes": [
       "This policy applies to all employees involved in the procurement process, including but not limited to department heads, project managers, administrative staff, contractors, and consultants engaged in procurement activities."
     ],
-    "review_status": "needs_manual_correction",
+    "review_status": "reviewed",
     "validation_issues": [
       "Evidence quote missing from P03-v3/revision_notes"
     ]
@@ -1034,8 +1033,8 @@
     "category": "change_explicit",
     "policy_id": "P03",
     "as_of": null,
-    "question": "What documented change in the requirements section is reported in the revision notes from P03-v2 to P03-v3?",
-    "expected_answer": "All purchases exceeding $750 must receive prior approval from the respective department head, and any purchase above $3,000 requires secondary approval from the Finance Department.",
+    "question": "What purchase approval limits changed in P03-v3?",
+    "expected_answer": "Department-head approval changed from $500 to $750; Finance approval from $2,500 to $3,000.",
     "required_version_ids": [
       "P03-v2",
       "P03-v3"
@@ -1047,7 +1046,7 @@
       "All purchases exceeding $750 must receive prior approval from the respective department head.",
       "Additionally, any purchase above $3,000 requires a secondary approval from the Finance Department to ensure budget compliance and financial oversight."
     ],
-    "review_status": "needs_manual_correction",
+    "review_status": "reviewed",
     "validation_issues": [
       "Wrong number of evidence quotes"
     ]
@@ -1057,8 +1056,8 @@
     "category": "change_explicit",
     "policy_id": "P06",
     "as_of": null,
-    "question": "What documented change in the exceptions section is reported in the revision notes from P06-v2 to P06-v3?",
-    "expected_answer": "The approval time for exceptions was changed from 24 hours to 12 hours.",
+    "question": "What changed about emergency access exceptions in the IT Access Policy P06-v3?",
+    "expected_answer": "The change was in the approval time. In the version 2, the approval time by the IT Director was within 24 hours. In the version 3, P06-v3, the approval time for exceptions was changed to 12 hours.",
     "required_version_ids": [
       "P06-v2",
       "P06-v3"
@@ -1069,7 +1068,7 @@
     "evidence_quotes": [
       "Exceptions to this policy may be granted in cases where immediate access is required for business continuity, such as during system outages. In such cases, the request must be documented and approved by the IT Director within 12 hours of access being granted."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -1077,8 +1076,8 @@
     "category": "change_explicit",
     "policy_id": "P06",
     "as_of": null,
-    "question": "What documented change in the procedure section is reported in the revision notes from P06-v2 to P06-v3?",
-    "expected_answer": "The processing time for access requests was changed from three business days to two business days.",
+    "question": "What access-request processing change was introduced in P06-v3?",
+    "expected_answer": "The change was in the processing time.The processing time for access requests was switched from three business days to two business days.",
     "required_version_ids": [
       "P06-v2",
       "P06-v3"
@@ -1089,7 +1088,7 @@
     "evidence_quotes": [
       "To initiate an access request, employees must complete the IT Access Request Form and submit it to their supervisor for approval. Once approved, the request will be forwarded to the IT department, which will process the request within two business days and notify the employee of their access status."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -1097,7 +1096,7 @@
     "category": "change_explicit",
     "policy_id": "P09",
     "as_of": null,
-    "question": "What documented change in the scope section is reported in the revision notes from P09-v2 to P09-v3?",
+    "question": "What scope change was introduced in the Mandatory Training Policy P09-v3?",
     "expected_answer": "The scope now includes any additional training deemed necessary by department heads.",
     "required_version_ids": [
       "P09-v2",
@@ -1109,7 +1108,7 @@
     "evidence_quotes": [
       "This policy applies to all employees of the company, including full-time, part-time, and temporary staff. It encompasses all mandatory training programs identified by the company, including safety, compliance, and job-specific training modules, as well as any additional training deemed necessary by department heads."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -1117,8 +1116,8 @@
     "category": "change_explicit",
     "policy_id": "P09",
     "as_of": null,
-    "question": "What documented change in the requirements section is reported in the revision notes from P09-v2 to P09-v3?",
-    "expected_answer": "All employees must complete mandatory training within 45 days of their start date or as specified by their department head, and a minimum of 15 hours of professional development training annually is required.",
+    "question": "What training requirements changed in P09-v3?",
+    "expected_answer": "All employees must complete mandatory training within 45 days(instead of 30 days) of their start date or within the timeframe specified by their department head. In addition, the annual professional development requirement increased from 10 hours to 15 hours.",
     "required_version_ids": [
       "P09-v2",
       "P09-v3"
@@ -1130,7 +1129,7 @@
       "All employees must complete mandatory training within 45 days of their start date or as specified by their department head.",
       "Employees are required to complete a minimum of 15 hours of professional development training annually to maintain eligibility for performance bonuses and promotions."
     ],
-    "review_status": "needs_manual_correction",
+    "review_status": "reviewed",
     "validation_issues": [
       "Wrong number of evidence quotes"
     ]
@@ -1140,8 +1139,8 @@
     "category": "change_implicit",
     "policy_id": "P01",
     "as_of": null,
-    "question": "What changed in the scope rule between P01-v1 and P01-v2?",
-    "expected_answer": "The scope now includes contractors and temporary staff who may travel on behalf of the company.",
+    "question": "In which version did the Travel and Accommodation Policy start covering contractors and temporary staff?",
+    "expected_answer": "In the version 2, the new policy is named as P01-v2.",
     "required_version_ids": [
       "P01-v1",
       "P01-v2"
@@ -1153,7 +1152,7 @@
     "evidence_quotes": [
       "Additionally, it now includes contractors and temporary staff who may travel on behalf of the company."
     ],
-    "review_status": "needs_manual_correction",
+    "review_status": "reviewed",
     "validation_issues": [
       "Wrong number of evidence quotes",
       "Evidence quote missing from P01-v1/scope"
@@ -1164,8 +1163,8 @@
     "category": "change_implicit",
     "policy_id": "P01",
     "as_of": null,
-    "question": "What changed in the requirements rule between P01-v1 and P01-v2?",
-    "expected_answer": "The requirement for submitting a travel request form increased from 14 days to 21 days prior to the intended travel date, and the expense limit requiring additional approval increased from $500 to $750.",
+    "question": "When were the travel request notice period increased to 21 days and the additional approval threshold raised to $750?",
+    "expected_answer": "P01-v2, effective 2026-01-01",
     "required_version_ids": [
       "P01-v1",
       "P01-v2"
@@ -1178,7 +1177,7 @@
       "Employees must submit a travel request form at least 21 days prior to the intended travel date for approval by their direct supervisor.",
       "any expenses exceeding $750 must receive additional approval from the department head."
     ],
-    "review_status": "needs_manual_correction",
+    "review_status": "reviewed",
     "validation_issues": [
       "Evidence quote missing from P01-v1/requirements"
     ]
@@ -1188,8 +1187,8 @@
     "category": "change_implicit",
     "policy_id": "P04",
     "as_of": null,
-    "question": "What changed in the procedure rule between P04-v1 and P04-v2?",
-    "expected_answer": "The decision timeframe for the Supplier Approval Committee changed from 15 business days to 10 business days.",
+    "question": "Which version reduced the Supplier Approval Committee’s decision period to 10 business days?",
+    "expected_answer": "In the version 2, the new policy is named as P04-v2.",
     "required_version_ids": [
       "P04-v1",
       "P04-v2"
@@ -1202,7 +1201,7 @@
       "which will make a decision within 15 business days.",
       "which will make a decision within 10 business days."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -1210,8 +1209,8 @@
     "category": "change_implicit",
     "policy_id": "P04",
     "as_of": null,
-    "question": "What changed in the records rule between P04-v1 and P04-v2?",
-    "expected_answer": "The minimum duration for maintaining records changed from five years to seven years.",
+    "question": "Since when must supplier onboarding records be kept for at least seven years?",
+    "expected_answer": "Since 2026-01-01. It is stated in the new version of policy under the name P04-v2.",
     "required_version_ids": [
       "P04-v1",
       "P04-v2"
@@ -1224,7 +1223,7 @@
       "must be maintained for a minimum of five years.",
       "must be maintained for a minimum of seven years."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -1232,8 +1231,8 @@
     "category": "change_implicit",
     "policy_id": "P07",
     "as_of": null,
-    "question": "What changed in the requirements rule between P07-v1 and P07-v2?",
-    "expected_answer": "The notice period for submitting a Remote Work Request Form changed from two weeks to one week.",
+    "question": "In which version was the notice for a Remote Work Request Form shortened to one week?",
+    "expected_answer": "In the version 2, the new policy is named as P07-v2.",
     "required_version_ids": [
       "P07-v1",
       "P07-v2"
@@ -1246,7 +1245,7 @@
       "Employees must submit a Remote Work Request Form at least two weeks prior to the desired remote work date.",
       "Employees must submit a Remote Work Request Form at least one week prior to the desired remote work date."
     ],
-    "review_status": "pending_manual_review",
+    "review_status": "reviewed",
     "validation_issues": []
   },
   {
@@ -1254,8 +1253,8 @@
     "category": "change_implicit",
     "policy_id": "P07",
     "as_of": null,
-    "question": "What changed in the exceptions rule between P07-v1 and P07-v2?",
-    "expected_answer": "The approval timeframe for exceptions changed from five business days to three business days.",
+    "question": "Was the three-business-day exception approval period already present in P07-v1?",
+    "expected_answer": "No, the three-business-day exception approval period was introduced in P07-v2. In P07-v1, the approval period was five business days.",
     "required_version_ids": [
       "P07-v1",
       "P07-v2"
@@ -1268,7 +1267,7 @@
       "Approval must be obtained from the department head and HR within five business days.",
       "Approval must be obtained from the department head and HR within three business days."
     ],
-    "review_status": "needs_manual_correction",
+    "review_status": "reviewed",
     "validation_issues": [
       "Evidence quote missing from P07-v1/exceptions",
       "Evidence quote missing from P07-v2/exceptions"
