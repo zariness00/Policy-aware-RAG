@@ -1,0 +1,3 @@
+[submodule "versionrag"]
+	path = versionrag
+	url = https://github.com/zariness00/versionrag.git
