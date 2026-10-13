@@ -1,9 +1,8 @@
-# Initial idea
-To create two RAG systems with Naive RAG and Version RAG
-I have 12 policies with 28 full docs. Then, based on the policies and their versions, I create 60 questions with gpt 4o mini. 
-The architecture of the Version RAG and 6 categories are used from the [VersionRAG paper](https://arxiv.org/pdf/2510.08109). 
+# Policy-aware RAG: Baseline vs VersionRAG
 
-Here is the distribution of categories and num of questions
+This project compares dense-retrieval RAG with an adapted version of VersionRAG on synthetic, versioned company policies. The dataset contains 12 policies, 28 full policy versions, six release-note files, and 60 evaluation questions generated with `gpt-4o-mini` and manually reviewed. The VersionRAG architecture and six question categories are based on the [VersionRAG paper](https://arxiv.org/pdf/2510.08109).
+
+The question distribution is:
 
 | Category | Questions |
 | --- | ---: |
@@ -14,21 +13,51 @@ Here is the distribution of categories and num of questions
 | Explicit change retrieval | 6 |
 | Implicit change retrieval | 6 |
 
-This gives every policy one question in each of the first four categories. The remaining 12 change questions cover six policies. In total, 36 of 60 questions are version-sensitive, keeping the paper's 60% share in a smaller dataset.
+This gives every policy one question in each of the first four categories. The remaining 12 change questions cover six policies. In total, 36 of 60 questions are version-sensitive
 
 ## Synthetic policy creation
 
-1. `gpt-4o-mini` generates a complete v1 policy from a topic only.
-2. For each revision, the model proposes material changes in two sections; v3 avoids repeating the same rule change from v2.
-3. The script rewrites changed sections and copies unchanged text into a complete v2 or v3 version, saving the revision notes in `changes.md`.
-4. The latest versions of P03, P06, and P09 include revision notes; explicit-change questions use them, while implicit-change questions compare two full versions.
-5. The model then writes questions and expected answers from the relevant versions, checking evidence quotes for consistency and flagging mismatches for manual review.
+1. `gpt-4o-mini` generates a complete v1 policy from a topic only
+2. For each revision, the model proposes material changes in two sections; v3 avoids repeating the same rule change from v2
+3. The script rewrites changed sections and copies unchanged text into a complete v2 or v3 policy. It keeps change notes outside the policy text
+4. For each transition in P03, P06, and P09, it writes a short file under `dataset/release_notes/`. Explicit-change questions use these notes; implicit-change questions identify when a rule appeared by comparing policy versions without notes
+5. The model then writes questions and expected answers from the relevant documents, checking evidence quotes and flagging mismatches for manual review. It saves the full review data in `questions_full_version.json` and the evaluation input in `questions_final.csv`
 
-Each document has an effective date and a `Supersedes` link in its header. The policy text is ready to be split into chunks during the later indexing stage
+Each policy has an effective date and a `Supersedes` link in its header. When indexing, give both pipelines the same policy files and release notes. The current manually reviewed dataset is already in `dataset/`; running the generator with `--overwrite` there would replace it.
 
-## Future plan
+## Experimental setup
 
-1. Indexing: Naive RAG in Milvus; Version RAG in Neo4j
-2. Embeddings: OpenAI text-embedding-3-small
-3. Generation model: use OpenAI when tokens/credits are available; otherwise switch to a local Ollama model such as DeepSeek on a remote server
-4. Evaluation: LLM as a judge correctness/ perhaps some other surface based lvl metrics as well 
+Both pipelines indexed the same 34 Markdown files. Baseline used dense retrieval from Milvus Lite; VersionRAG used Neo4j for version and change relationships alongside Milvus Lite for vector search. Both used `text-embedding-3-small` with 512 dimensions and `gpt-4o-mini` to generate answers. A separate `gpt-4.1` judge scored saved answers, followed by a complete manual review. The manual scores are the primary results below.
+
+## VersionRAG adaptation
+
+The cloned VersionRAG retrieval code was adapted for this policy dataset:
+
+1. Normalized category, document, and version names are written back into search filters.
+2. Explicit policy IDs such as `P06-v2` are resolved against the graph even if the query classifier omits them.
+3. For content questions with an `as of` or `on` date and no explicit version ID, retrieval selects the latest version effective on that date. Dated content questions are routed to content retrieval instead of change retrieval.
+4. Content retrieval excludes release notes; change retrieval can still use them.
+5. Version listings include effective dates read from document headers.
+6. Questions asking when or in which version a rule changed can retrieve change records from later versions.
+
+These are dataset-specific retrieval adaptations, so the results should be described as an **adapted VersionRAG implementation**, not an unchanged run of the original repository.
+
+## Results
+
+Answer accuracy is the share of questions marked correct in the final manual review. The content group combines basic, complex, and version-specific content retrieval (36 questions); version listing contains 12 questions; and change retrieval combines explicit and implicit changes (12 questions).
+
+| Approach | Overall [%] | Content Retrieval [%] | Version Listing [%] | Change Retrieval [%] |
+| --- | ---: | ---: | ---: | ---: |
+| Baseline | 90.00 (54/60) | 88.89 (32/36) | 100.00 (12/12) | 83.33 (10/12) |
+| VersionRAG | 91.67 (55/60) | 94.44 (34/36) | 100.00 (12/12) | 75.00 (9/12) |
+
+![Final human-reviewed answer accuracy](dataset/final_accuracy.png)
+
+The two approaches differed by one correct answer overall. VersionRAG scored higher on content questions, while Baseline scored higher on change questions. The separate LLM judge scored Baseline 53/60 and VersionRAG 52/60. 
+
+Additionaly, I calculated the agreement between the manual and LLM scores. It is 95% for each approach (Cohen's κ ≈ 0.74).
+
+
+This is a small synthetic benchmark with one manual reviewer; the one-answer overall difference is descriptive rather than evidence of a general performance advantage.
+
+Final artifacts: [questions](dataset/questions_final.csv), [answers](dataset/evaluation_final.csv), [manual scores](dataset/evaluation_human_final.csv), [LLM scores](dataset/evaluation_retest_v2_scored.csv), [summary table](dataset/final_accuracy_summary.csv), and the [plot script](src/plot_final_results.py).
