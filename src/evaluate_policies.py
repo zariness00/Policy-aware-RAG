@@ -11,7 +11,7 @@ from pathlib import Path
 import sys
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 QUESTIONS_CSV = ROOT / "dataset" / "questions_final.csv"
 VERSIONRAG_SRC = ROOT / "versionrag" / "src"
 

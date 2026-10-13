@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "dataset" / "evaluation_human_final.csv"
 SUMMARY = ROOT / "dataset" / "final_accuracy_summary.csv"
 FIGURE = ROOT / "dataset" / "final_accuracy.png"
